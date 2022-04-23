@@ -8,14 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		5AE23FF1281414C300078C28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE23FF0281414C300078C28 /* AppDelegate.swift */; };
-		5AE23FF3281414C300078C28 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE23FF2281414C300078C28 /* SceneDelegate.swift */; };
-		5AE23FF5281414C300078C28 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE23FF4281414C300078C28 /* ViewController.swift */; };
-		5AE23FF8281414C300078C28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AE23FF6281414C300078C28 /* Main.storyboard */; };
 		5AE23FFA281414C600078C28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AE23FF9281414C600078C28 /* Assets.xcassets */; };
 		5AE23FFD281414C600078C28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AE23FFB281414C600078C28 /* LaunchScreen.storyboard */; };
 		5AE24008281414C600078C28 /* MarvelWorldWideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE24007281414C600078C28 /* MarvelWorldWideTests.swift */; };
 		5AE24012281414C600078C28 /* MarvelWorldWideUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE24011281414C600078C28 /* MarvelWorldWideUITests.swift */; };
 		5AE24014281414C600078C28 /* MarvelWorldWideUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE24013281414C600078C28 /* MarvelWorldWideUITestsLaunchTests.swift */; };
+		5AE24036281428B400078C28 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5AE24038281428B400078C28 /* Localizable.strings */; };
+		5AE2404828142ED400078C28 /* MWSplashCoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE2404628142ED400078C28 /* MWSplashCoordinatorProtocol.swift */; };
+		5AE2404928142ED400078C28 /* MWSplashCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE2404728142ED400078C28 /* MWSplashCoordinator.swift */; };
+		5AE2404C28142F1600078C28 /* MWSplashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5AE2404A28142F1600078C28 /* MWSplashViewController.xib */; };
+		5AE2404D28142F1600078C28 /* MWSplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE2404B28142F1600078C28 /* MWSplashViewController.swift */; };
+		5AE2405028142F5A00078C28 /* MWSplashViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE2404E28142F5A00078C28 /* MWSplashViewModelProtocol.swift */; };
+		5AE2405128142F5A00078C28 /* MWSplashViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE2404F28142F5A00078C28 /* MWSplashViewModel.swift */; };
+		5AE2405728142FF000078C28 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 5AE2405628142FF000078C28 /* Lottie */; };
+		5AE2405A2814300B00078C28 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 5AE240592814300B00078C28 /* Kingfisher */; };
+		5AE2405D2814302500078C28 /* CryptoSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 5AE2405C2814302500078C28 /* CryptoSwift */; };
+		5AE24060281430C100078C28 /* MWCoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE2405F281430C100078C28 /* MWCoordinatorProtocol.swift */; };
+		5AE240632814311500078C28 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE240622814311500078C28 /* BaseViewController.swift */; };
+		5AE240652814312B00078C28 /* BaseViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE240642814312B00078C28 /* BaseViewControllerProtocol.swift */; };
+		5AE240682814316300078C28 /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE240672814316200078C28 /* ViewExtension.swift */; };
+		5AE2406B2814319B00078C28 /* AnimationAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE2406A2814319B00078C28 /* AnimationAction.swift */; };
+		5AE2406D281431CC00078C28 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE2406C281431CC00078C28 /* StringExtension.swift */; };
+		5AE2406F281431F000078C28 /* URLComponentExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE2406E281431F000078C28 /* URLComponentExtension.swift */; };
+		5AE240722814322200078C28 /* EnvironmentProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE240712814322200078C28 /* EnvironmentProperty.swift */; };
+		5AE240742814325F00078C28 /* EnvironmentPropertyProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE240732814325F00078C28 /* EnvironmentPropertyProtocol.swift */; };
+		5AE240782814389D00078C28 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE240772814389D00078C28 /* Constant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +55,6 @@
 /* Begin PBXFileReference section */
 		5AE23FED281414C300078C28 /* MarvelWorldWide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarvelWorldWide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AE23FF0281414C300078C28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5AE23FF2281414C300078C28 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5AE23FF4281414C300078C28 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5AE23FF7281414C300078C28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5AE23FF9281414C600078C28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5AE23FFC281414C600078C28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5AE23FFE281414C600078C28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -52,8 +66,25 @@
 		5AE24022281415CB00078C28 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
 		5AE24023281415D800078C28 /* Development.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Development.xcconfig; sourceTree = "<group>"; };
 		5AE24024281415E100078C28 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
-		5AE24025281416D100078C28 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
 		5AE24026281416D100078C28 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		5AE24037281428B400078C28 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		5AE24039281428B700078C28 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		5AE2404628142ED400078C28 /* MWSplashCoordinatorProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MWSplashCoordinatorProtocol.swift; sourceTree = "<group>"; };
+		5AE2404728142ED400078C28 /* MWSplashCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MWSplashCoordinator.swift; sourceTree = "<group>"; };
+		5AE2404A28142F1600078C28 /* MWSplashViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MWSplashViewController.xib; sourceTree = "<group>"; };
+		5AE2404B28142F1600078C28 /* MWSplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MWSplashViewController.swift; sourceTree = "<group>"; };
+		5AE2404E28142F5A00078C28 /* MWSplashViewModelProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MWSplashViewModelProtocol.swift; sourceTree = "<group>"; };
+		5AE2404F28142F5A00078C28 /* MWSplashViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MWSplashViewModel.swift; sourceTree = "<group>"; };
+		5AE2405F281430C100078C28 /* MWCoordinatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MWCoordinatorProtocol.swift; sourceTree = "<group>"; };
+		5AE240622814311500078C28 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		5AE240642814312B00078C28 /* BaseViewControllerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewControllerProtocol.swift; sourceTree = "<group>"; };
+		5AE240672814316200078C28 /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
+		5AE2406A2814319B00078C28 /* AnimationAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationAction.swift; sourceTree = "<group>"; };
+		5AE2406C281431CC00078C28 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		5AE2406E281431F000078C28 /* URLComponentExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLComponentExtension.swift; sourceTree = "<group>"; };
+		5AE240712814322200078C28 /* EnvironmentProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentProperty.swift; sourceTree = "<group>"; };
+		5AE240732814325F00078C28 /* EnvironmentPropertyProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentPropertyProtocol.swift; sourceTree = "<group>"; };
+		5AE240772814389D00078C28 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +92,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AE2405A2814300B00078C28 /* Kingfisher in Frameworks */,
+				5AE2405728142FF000078C28 /* Lottie in Frameworks */,
+				5AE2405D2814302500078C28 /* CryptoSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,13 +138,16 @@
 		5AE23FEF281414C300078C28 /* MarvelWorldWide */ = {
 			isa = PBXGroup;
 			children = (
+				5AE2402E281424C500078C28 /* Common */,
+				5AE2402F281424E300078C28 /* CommonUI */,
 				5AE240202814159500078C28 /* Configuration */,
-				5AE23FF0281414C300078C28 /* AppDelegate.swift */,
-				5AE23FF2281414C300078C28 /* SceneDelegate.swift */,
-				5AE23FF4281414C300078C28 /* ViewController.swift */,
-				5AE23FF6281414C300078C28 /* Main.storyboard */,
-				5AE23FF9281414C600078C28 /* Assets.xcassets */,
-				5AE23FFB281414C600078C28 /* LaunchScreen.storyboard */,
+				5AE24031281424FB00078C28 /* Localizables */,
+				5AE2402B2814249A00078C28 /* Main */,
+				5AE240322814250600078C28 /* Network */,
+				5AE2402C281424AF00078C28 /* Resources */,
+				5AE240332814288D00078C28 /* Scenes */,
+				5AE2402D281424B800078C28 /* Storyboards */,
+				5AE24030281424ED00078C28 /* TestPlan */,
 			);
 			path = MarvelWorldWide;
 			sourceTree = "<group>";
@@ -151,6 +188,177 @@
 			path = Environment;
 			sourceTree = "<group>";
 		};
+		5AE2402B2814249A00078C28 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				5AE23FF0281414C300078C28 /* AppDelegate.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		5AE2402C281424AF00078C28 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5AE23FF9281414C600078C28 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5AE2402D281424B800078C28 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				5AE23FFB281414C600078C28 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		5AE2402E281424C500078C28 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				5AE240702814320D00078C28 /* Struct */,
+				5AE240692814318F00078C28 /* Enum */,
+				5AE240662814315200078C28 /* Extension */,
+				5AE2405E281430A200078C28 /* Protocol */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		5AE2402F281424E300078C28 /* CommonUI */ = {
+			isa = PBXGroup;
+			children = (
+				5AE240612814310500078C28 /* ViewController */,
+			);
+			path = CommonUI;
+			sourceTree = "<group>";
+		};
+		5AE24030281424ED00078C28 /* TestPlan */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TestPlan;
+			sourceTree = "<group>";
+		};
+		5AE24031281424FB00078C28 /* Localizables */ = {
+			isa = PBXGroup;
+			children = (
+				5AE24038281428B400078C28 /* Localizable.strings */,
+			);
+			path = Localizables;
+			sourceTree = "<group>";
+		};
+		5AE240322814250600078C28 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		5AE240332814288D00078C28 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				5AE2403A28142E7800078C28 /* MWSplash */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		5AE2403A28142E7800078C28 /* MWSplash */ = {
+			isa = PBXGroup;
+			children = (
+				5AE2404528142EC100078C28 /* View */,
+				5AE2404428142EB900078C28 /* ViewModel */,
+				5AE2404328142EB200078C28 /* Coordinator */,
+			);
+			path = MWSplash;
+			sourceTree = "<group>";
+		};
+		5AE2404328142EB200078C28 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				5AE2404728142ED400078C28 /* MWSplashCoordinator.swift */,
+				5AE2404628142ED400078C28 /* MWSplashCoordinatorProtocol.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		5AE2404428142EB900078C28 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5AE2404F28142F5A00078C28 /* MWSplashViewModel.swift */,
+				5AE2404E28142F5A00078C28 /* MWSplashViewModelProtocol.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5AE2404528142EC100078C28 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5AE2404B28142F1600078C28 /* MWSplashViewController.swift */,
+				5AE2404A28142F1600078C28 /* MWSplashViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5AE2405E281430A200078C28 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				5AE2405F281430C100078C28 /* MWCoordinatorProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		5AE240612814310500078C28 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5AE240622814311500078C28 /* BaseViewController.swift */,
+				5AE240642814312B00078C28 /* BaseViewControllerProtocol.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		5AE240662814315200078C28 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5AE240672814316200078C28 /* ViewExtension.swift */,
+				5AE2406C281431CC00078C28 /* StringExtension.swift */,
+				5AE2406E281431F000078C28 /* URLComponentExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		5AE240692814318F00078C28 /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				5AE2406A2814319B00078C28 /* AnimationAction.swift */,
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
+		5AE240702814320D00078C28 /* Struct */ = {
+			isa = PBXGroup;
+			children = (
+				5AE240762814380F00078C28 /* Constant */,
+				5AE240752814380700078C28 /* Environment */,
+			);
+			path = Struct;
+			sourceTree = "<group>";
+		};
+		5AE240752814380700078C28 /* Environment */ = {
+			isa = PBXGroup;
+			children = (
+				5AE240712814322200078C28 /* EnvironmentProperty.swift */,
+				5AE240732814325F00078C28 /* EnvironmentPropertyProtocol.swift */,
+			);
+			path = Environment;
+			sourceTree = "<group>";
+		};
+		5AE240762814380F00078C28 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				5AE240772814389D00078C28 /* Constant.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -167,6 +375,11 @@
 			dependencies = (
 			);
 			name = MarvelWorldWide;
+			packageProductDependencies = (
+				5AE2405628142FF000078C28 /* Lottie */,
+				5AE240592814300B00078C28 /* Kingfisher */,
+				5AE2405C2814302500078C28 /* CryptoSwift */,
+			);
 			productName = MarvelWorldWide;
 			productReference = 5AE23FED281414C300078C28 /* MarvelWorldWide.app */;
 			productType = "com.apple.product-type.application";
@@ -240,6 +453,11 @@
 				es,
 			);
 			mainGroup = 5AE23FE4281414C300078C28;
+			packageReferences = (
+				5AE2405528142FF000078C28 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				5AE240582814300B00078C28 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				5AE2405B2814302500078C28 /* XCRemoteSwiftPackageReference "CryptoSwift" */,
+			);
 			productRefGroup = 5AE23FEE281414C300078C28 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,8 +475,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5AE23FFD281414C600078C28 /* LaunchScreen.storyboard in Resources */,
+				5AE2404C28142F1600078C28 /* MWSplashViewController.xib in Resources */,
+				5AE24036281428B400078C28 /* Localizable.strings in Resources */,
 				5AE23FFA281414C600078C28 /* Assets.xcassets in Resources */,
-				5AE23FF8281414C300078C28 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,9 +502,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5AE23FF5281414C300078C28 /* ViewController.swift in Sources */,
+				5AE240722814322200078C28 /* EnvironmentProperty.swift in Sources */,
+				5AE2404928142ED400078C28 /* MWSplashCoordinator.swift in Sources */,
+				5AE2405128142F5A00078C28 /* MWSplashViewModel.swift in Sources */,
+				5AE240782814389D00078C28 /* Constant.swift in Sources */,
+				5AE2406B2814319B00078C28 /* AnimationAction.swift in Sources */,
+				5AE2404D28142F1600078C28 /* MWSplashViewController.swift in Sources */,
+				5AE2405028142F5A00078C28 /* MWSplashViewModelProtocol.swift in Sources */,
+				5AE240682814316300078C28 /* ViewExtension.swift in Sources */,
 				5AE23FF1281414C300078C28 /* AppDelegate.swift in Sources */,
-				5AE23FF3281414C300078C28 /* SceneDelegate.swift in Sources */,
+				5AE240742814325F00078C28 /* EnvironmentPropertyProtocol.swift in Sources */,
+				5AE240632814311500078C28 /* BaseViewController.swift in Sources */,
+				5AE2406D281431CC00078C28 /* StringExtension.swift in Sources */,
+				5AE2404828142ED400078C28 /* MWSplashCoordinatorProtocol.swift in Sources */,
+				5AE240652814312B00078C28 /* BaseViewControllerProtocol.swift in Sources */,
+				5AE24060281430C100078C28 /* MWCoordinatorProtocol.swift in Sources */,
+				5AE2406F281431F000078C28 /* URLComponentExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,15 +554,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5AE23FF6281414C300078C28 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5AE23FF7281414C300078C28 /* Base */,
-				5AE24025281416D100078C28 /* es */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5AE23FFB281414C600078C28 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -338,6 +561,15 @@
 				5AE24026281416D100078C28 /* es */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		5AE24038281428B400078C28 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AE24037281428B400078C28 /* es */,
+				5AE24039281428B700078C28 /* en */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -777,6 +1009,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5AE2405528142FF000078C28 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+		5AE240582814300B00078C28 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+		5AE2405B2814302500078C28 /* XCRemoteSwiftPackageReference "CryptoSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/krzyzanowskim/CryptoSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5AE2405628142FF000078C28 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5AE2405528142FF000078C28 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+		5AE240592814300B00078C28 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5AE240582814300B00078C28 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		5AE2405C2814302500078C28 /* CryptoSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5AE2405B2814302500078C28 /* XCRemoteSwiftPackageReference "CryptoSwift" */;
+			productName = CryptoSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5AE23FE5281414C300078C28 /* Project object */;
 }

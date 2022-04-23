@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict/>
+<dict>
+	<key>KEY_ENVIRONMENT</key>
+	<string>$(KEY_ENVIRONMENT)</string>
+	<key>PUBLIC_API_KEY</key>
+	<string>$(PUBLIC_API_KEY)</string>
+	<key>PRIVATE_API_KEY</key>
+	<string>$(PRIVATE_API_KEY)</string>
+	<key>MARVEL_URL_BASE_KEY</key>
+	<string>$(MARVEL_URL_BASE_KEY)</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+</dict>
 </plist>
