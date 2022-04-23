@@ -50,6 +50,22 @@
 		5AE240A628143F9B00078C28 /* loaderAnimation.json in Resources */ = {isa = PBXBuildFile; fileRef = 5AE240A228143F9B00078C28 /* loaderAnimation.json */; };
 		5AE240A728143F9B00078C28 /* noContents.json in Resources */ = {isa = PBXBuildFile; fileRef = 5AE240A328143F9B00078C28 /* noContents.json */; };
 		5AE240A828143F9B00078C28 /* animationPow.json in Resources */ = {isa = PBXBuildFile; fileRef = 5AE240A428143F9B00078C28 /* animationPow.json */; };
+		5AE240AD28144D5100078C28 /* CharacterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE240AC28144D5100078C28 /* CharacterModel.swift */; };
+		5AE240B028144D8D00078C28 /* MWHomeEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE240AF28144D8D00078C28 /* MWHomeEndpoint.swift */; };
+		5AE240B228144DE100078C28 /* MWHomeDataSourceAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE240B128144DE100078C28 /* MWHomeDataSourceAPI.swift */; };
+		5AE240B428144E1A00078C28 /* MWHomeDataSourceAPIProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE240B328144E1A00078C28 /* MWHomeDataSourceAPIProtocol.swift */; };
+		5AE240B828144E9B00078C28 /* MWHomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE240B728144E9B00078C28 /* MWHomeViewModel.swift */; };
+		5AE240BA28144EA400078C28 /* MWHomeViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE240B928144EA400078C28 /* MWHomeViewModelProtocol.swift */; };
+		5AE240BC28144EAF00078C28 /* MWHomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE240BB28144EAF00078C28 /* MWHomeCoordinator.swift */; };
+		5AE240BE28144EBF00078C28 /* MWHomeCoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE240BD28144EBF00078C28 /* MWHomeCoordinatorProtocol.swift */; };
+		5AE240C228144F3D00078C28 /* MWHomeListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5AE240C128144F3D00078C28 /* MWHomeListViewController.xib */; };
+		5AE240C428144F4900078C28 /* MWHomeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE240C328144F4900078C28 /* MWHomeListViewController.swift */; };
+		5AE240C628144F6200078C28 /* MWHomeListViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE240C528144F6200078C28 /* MWHomeListViewControllerProtocol.swift */; };
+		5AE240C828144F9A00078C28 /* MWHomeListViewController+UITableViewDelegate+DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE240C728144F9A00078C28 /* MWHomeListViewController+UITableViewDelegate+DataSource.swift */; };
+		5AE240CC28146F8E00078C28 /* MWHomeListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5AE240CA28146F8E00078C28 /* MWHomeListTableViewCell.xib */; };
+		5AE240CD28146F8E00078C28 /* MWHomeListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE240CB28146F8E00078C28 /* MWHomeListTableViewCell.swift */; };
+		5AE240CF28146FBF00078C28 /* MWHomeListCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE240CE28146FBF00078C28 /* MWHomeListCellModel.swift */; };
+		5AE240D12814716000078C28 /* MWHomeListViewController+UISearchBarDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE240D02814716000078C28 /* MWHomeListViewController+UISearchBarDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -119,6 +135,22 @@
 		5AE240A228143F9B00078C28 /* loaderAnimation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loaderAnimation.json; sourceTree = "<group>"; };
 		5AE240A328143F9B00078C28 /* noContents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = noContents.json; sourceTree = "<group>"; };
 		5AE240A428143F9B00078C28 /* animationPow.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animationPow.json; sourceTree = "<group>"; };
+		5AE240AC28144D5100078C28 /* CharacterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterModel.swift; sourceTree = "<group>"; };
+		5AE240AF28144D8D00078C28 /* MWHomeEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MWHomeEndpoint.swift; sourceTree = "<group>"; };
+		5AE240B128144DE100078C28 /* MWHomeDataSourceAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MWHomeDataSourceAPI.swift; sourceTree = "<group>"; };
+		5AE240B328144E1A00078C28 /* MWHomeDataSourceAPIProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MWHomeDataSourceAPIProtocol.swift; sourceTree = "<group>"; };
+		5AE240B728144E9B00078C28 /* MWHomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MWHomeViewModel.swift; sourceTree = "<group>"; };
+		5AE240B928144EA400078C28 /* MWHomeViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MWHomeViewModelProtocol.swift; sourceTree = "<group>"; };
+		5AE240BB28144EAF00078C28 /* MWHomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MWHomeCoordinator.swift; sourceTree = "<group>"; };
+		5AE240BD28144EBF00078C28 /* MWHomeCoordinatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MWHomeCoordinatorProtocol.swift; sourceTree = "<group>"; };
+		5AE240C128144F3D00078C28 /* MWHomeListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MWHomeListViewController.xib; sourceTree = "<group>"; };
+		5AE240C328144F4900078C28 /* MWHomeListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MWHomeListViewController.swift; sourceTree = "<group>"; };
+		5AE240C528144F6200078C28 /* MWHomeListViewControllerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MWHomeListViewControllerProtocol.swift; sourceTree = "<group>"; };
+		5AE240C728144F9A00078C28 /* MWHomeListViewController+UITableViewDelegate+DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MWHomeListViewController+UITableViewDelegate+DataSource.swift"; sourceTree = "<group>"; };
+		5AE240CA28146F8E00078C28 /* MWHomeListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MWHomeListTableViewCell.xib; sourceTree = "<group>"; };
+		5AE240CB28146F8E00078C28 /* MWHomeListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MWHomeListTableViewCell.swift; sourceTree = "<group>"; };
+		5AE240CE28146FBF00078C28 /* MWHomeListCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MWHomeListCellModel.swift; sourceTree = "<group>"; };
+		5AE240D02814716000078C28 /* MWHomeListViewController+UISearchBarDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MWHomeListViewController+UISearchBarDelegate.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -292,7 +324,7 @@
 				5AE2409728143E0C00078C28 /* ContentType */,
 				5AE2409428143DDD00078C28 /* URLMethod */,
 				5AE2409128143DAE00078C28 /* Endpoint */,
-				5AE2408E28143D8600078C28 /* Request */,
+				5AE2408E28143D8600078C28 /* Factory */,
 				5AE2408B28143D3A00078C28 /* Error */,
 				5AE2408828143D0200078C28 /* Main */,
 			);
@@ -302,6 +334,7 @@
 		5AE240332814288D00078C28 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				5AE240A928144D3900078C28 /* MWHome */,
 				5AE2403A28142E7800078C28 /* MWSplash */,
 			);
 			path = Scenes;
@@ -455,12 +488,12 @@
 			path = Error;
 			sourceTree = "<group>";
 		};
-		5AE2408E28143D8600078C28 /* Request */ = {
+		5AE2408E28143D8600078C28 /* Factory */ = {
 			isa = PBXGroup;
 			children = (
 				5AE2408F28143D9F00078C28 /* MWRequestFactory.swift */,
 			);
-			path = Request;
+			path = Factory;
 			sourceTree = "<group>";
 		};
 		5AE2409128143DAE00078C28 /* Endpoint */ = {
@@ -512,6 +545,93 @@
 				5AE240A128143F9B00078C28 /* splashAnimationtest.json */,
 			);
 			path = Animations;
+			sourceTree = "<group>";
+		};
+		5AE240A928144D3900078C28 /* MWHome */ = {
+			isa = PBXGroup;
+			children = (
+				5AE240C028144F1E00078C28 /* View */,
+				5AE240BF28144F1100078C28 /* Repository */,
+				5AE240B628144E7B00078C28 /* Coordinator */,
+				5AE240B528144E7000078C28 /* ViewModel */,
+				5AE240AA28144D4100078C28 /* DataSource */,
+			);
+			path = MWHome;
+			sourceTree = "<group>";
+		};
+		5AE240AA28144D4100078C28 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				5AE240AE28144D7700078C28 /* Endpoint */,
+				5AE240AB28144D4700078C28 /* Model */,
+				5AE240B128144DE100078C28 /* MWHomeDataSourceAPI.swift */,
+				5AE240B328144E1A00078C28 /* MWHomeDataSourceAPIProtocol.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		5AE240AB28144D4700078C28 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5AE240AC28144D5100078C28 /* CharacterModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5AE240AE28144D7700078C28 /* Endpoint */ = {
+			isa = PBXGroup;
+			children = (
+				5AE240AF28144D8D00078C28 /* MWHomeEndpoint.swift */,
+			);
+			path = Endpoint;
+			sourceTree = "<group>";
+		};
+		5AE240B528144E7000078C28 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5AE240B728144E9B00078C28 /* MWHomeViewModel.swift */,
+				5AE240B928144EA400078C28 /* MWHomeViewModelProtocol.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5AE240B628144E7B00078C28 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				5AE240BB28144EAF00078C28 /* MWHomeCoordinator.swift */,
+				5AE240BD28144EBF00078C28 /* MWHomeCoordinatorProtocol.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		5AE240BF28144F1100078C28 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		5AE240C028144F1E00078C28 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5AE240C928146F8600078C28 /* Cell */,
+				5AE240C328144F4900078C28 /* MWHomeListViewController.swift */,
+				5AE240C128144F3D00078C28 /* MWHomeListViewController.xib */,
+				5AE240C528144F6200078C28 /* MWHomeListViewControllerProtocol.swift */,
+				5AE240C728144F9A00078C28 /* MWHomeListViewController+UITableViewDelegate+DataSource.swift */,
+				5AE240D02814716000078C28 /* MWHomeListViewController+UISearchBarDelegate.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5AE240C928146F8600078C28 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				5AE240CB28146F8E00078C28 /* MWHomeListTableViewCell.swift */,
+				5AE240CA28146F8E00078C28 /* MWHomeListTableViewCell.xib */,
+				5AE240CE28146FBF00078C28 /* MWHomeListCellModel.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -632,10 +752,12 @@
 				5AE23FFD281414C600078C28 /* LaunchScreen.storyboard in Resources */,
 				5AE240A628143F9B00078C28 /* loaderAnimation.json in Resources */,
 				5AE2404C28142F1600078C28 /* MWSplashViewController.xib in Resources */,
+				5AE240C228144F3D00078C28 /* MWHomeListViewController.xib in Resources */,
 				5AE240A728143F9B00078C28 /* noContents.json in Resources */,
 				5AE240A528143F9B00078C28 /* splashAnimationtest.json in Resources */,
 				5AE24036281428B400078C28 /* Localizable.strings in Resources */,
 				5AE23FFA281414C600078C28 /* Assets.xcassets in Resources */,
+				5AE240CC28146F8E00078C28 /* MWHomeListTableViewCell.xib in Resources */,
 				5AE240A828143F9B00078C28 /* animationPow.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -663,29 +785,43 @@
 			files = (
 				5AE240722814322200078C28 /* EnvironmentProperty.swift in Sources */,
 				5AE2407C28143A2700078C28 /* MWColor.swift in Sources */,
+				5AE240CD28146F8E00078C28 /* MWHomeListTableViewCell.swift in Sources */,
 				5AE2409C28143E9900078C28 /* MWNetworkFacade.swift in Sources */,
+				5AE240D12814716000078C28 /* MWHomeListViewController+UISearchBarDelegate.swift in Sources */,
+				5AE240B828144E9B00078C28 /* MWHomeViewModel.swift in Sources */,
 				5AE2404928142ED400078C28 /* MWSplashCoordinator.swift in Sources */,
+				5AE240CF28146FBF00078C28 /* MWHomeListCellModel.swift in Sources */,
 				5AE2409328143DC900078C28 /* MWEndpointProtocol.swift in Sources */,
+				5AE240B028144D8D00078C28 /* MWHomeEndpoint.swift in Sources */,
+				5AE240B228144DE100078C28 /* MWHomeDataSourceAPI.swift in Sources */,
 				5AE2405128142F5A00078C28 /* MWSplashViewModel.swift in Sources */,
 				5AE240782814389D00078C28 /* Constant.swift in Sources */,
 				5AE2407E28143A7A00078C28 /* UIColorExtension.swift in Sources */,
+				5AE240B428144E1A00078C28 /* MWHomeDataSourceAPIProtocol.swift in Sources */,
 				5AE2409028143D9F00078C28 /* MWRequestFactory.swift in Sources */,
+				5AE240C828144F9A00078C28 /* MWHomeListViewController+UITableViewDelegate+DataSource.swift in Sources */,
 				5AE2408A28143D2100078C28 /* MWNetwork.swift in Sources */,
 				5AE2406B2814319B00078C28 /* AnimationAction.swift in Sources */,
 				5AE2409628143E0400078C28 /* MWURLMethod.swift in Sources */,
+				5AE240BA28144EA400078C28 /* MWHomeViewModelProtocol.swift in Sources */,
+				5AE240C628144F6200078C28 /* MWHomeListViewControllerProtocol.swift in Sources */,
 				5AE2404D28142F1600078C28 /* MWSplashViewController.swift in Sources */,
 				5AE2409F28143ECE00078C28 /* ResponseGenericModel.swift in Sources */,
 				5AE2405028142F5A00078C28 /* MWSplashViewModelProtocol.swift in Sources */,
+				5AE240BE28144EBF00078C28 /* MWHomeCoordinatorProtocol.swift in Sources */,
 				5AE240682814316300078C28 /* ViewExtension.swift in Sources */,
 				5AE2408728143C2700078C28 /* MWImageView.swift in Sources */,
 				5AE23FF1281414C300078C28 /* AppDelegate.swift in Sources */,
+				5AE240BC28144EAF00078C28 /* MWHomeCoordinator.swift in Sources */,
 				5AE240742814325F00078C28 /* EnvironmentPropertyProtocol.swift in Sources */,
 				5AE2408D28143D4300078C28 /* MWNetworkError.swift in Sources */,
 				5AE2408428143BF300078C28 /* MWLabel.swift in Sources */,
+				5AE240AD28144D5100078C28 /* CharacterModel.swift in Sources */,
 				5AE240632814311500078C28 /* BaseViewController.swift in Sources */,
 				5AE2406D281431CC00078C28 /* StringExtension.swift in Sources */,
 				5AE2404828142ED400078C28 /* MWSplashCoordinatorProtocol.swift in Sources */,
 				5AE2408128143AF600078C28 /* Parser.swift in Sources */,
+				5AE240C428144F4900078C28 /* MWHomeListViewController.swift in Sources */,
 				5AE240652814312B00078C28 /* BaseViewControllerProtocol.swift in Sources */,
 				5AE2409928143E2400078C28 /* MWContentType.swift in Sources */,
 				5AE24060281430C100078C28 /* MWCoordinatorProtocol.swift in Sources */,

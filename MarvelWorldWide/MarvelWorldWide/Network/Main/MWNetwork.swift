@@ -6,7 +6,7 @@
 //
 
 import Foundation
-public class MWNetwork {
+internal class MWNetwork {
     
     // MARK: - Properties
     public static var timeout: Double?
