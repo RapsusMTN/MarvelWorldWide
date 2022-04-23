@@ -1,0 +1,14 @@
+//
+//  Development.xcconfig
+//  MarvelWorldWide
+//
+//  Created by akreyers on 23/4/22.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+KEY_ENVIRONMENT=PRE
+PUBLIC_API_KEY=26de2309d653b14eeaeb889a0e71f16f
+PRIVATE_API_KEY=45e3e68a49de1a89ef6843b7852563a3a52d06e7
+MARVEL_URL_BASE_KEY=gateway.marvel.com
