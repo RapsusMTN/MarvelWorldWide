@@ -18,4 +18,5 @@ public struct Constant {
     static var timestamp: String { "ts" }
     static var apiKey: String { "apikey" }
     static var hash: String { "hash" }
+    static var contentType: String { "Content-Type" }
 }

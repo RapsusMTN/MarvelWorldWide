@@ -6,9 +6,8 @@
 //
 
 import Foundation
-/// Class responsible for parse the result of the request. The parser only parse to the model that implement codable protocol
-final class Parser<T: Codable> {
-    
+/// Struct responsible for parse the result of the request. The parser only parse to the model that implement decodable protocol
+public struct Parser<T: Decodable> {
     /**
      Parse the data result from the response to specific model
      

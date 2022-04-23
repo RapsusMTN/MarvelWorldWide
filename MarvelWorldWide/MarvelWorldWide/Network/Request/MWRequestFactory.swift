@@ -10,12 +10,12 @@ import Foundation
 public class MWRequestFactory {
         
     /**
-     Configure the request for the communication manager methods.
+     Configure the request for MWNetwork facade methods.
      
      - Parameter endpoint: Enumeration than implement the Endpoint protocol. Will be used to configure the request.
      - Parameter timeout: Timeout for the request
      
-     - Returns: Configured request ready to use with communication manager
+     - Returns: Configured request ready to use with MWNetworkFacade
      
      - SeeAlso: Endpoint.swift
      */
@@ -55,14 +55,11 @@ public class MWRequestFactory {
             urlRequest.addValue(value, forHTTPHeaderField: key)
         }
         
-        
         // Add ContentType
         if let contentType = endpoint.contentType {
             switch contentType {
-            case .multipart:
-                urlRequest.setValue("\(urlRequest.httpBody?.count ?? 0)", forHTTPHeaderField: "Content-Length")
-            default:
-                urlRequest.addValue(contentType.rawValue, forHTTPHeaderField: "Content-Type")
+            case .json:
+                urlRequest.addValue(contentType.rawValue, forHTTPHeaderField: Constant.contentType)
             }
         }
         return urlRequest

@@ -46,6 +46,10 @@
 		5AE2409928143E2400078C28 /* MWContentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE2409828143E2400078C28 /* MWContentType.swift */; };
 		5AE2409C28143E9900078C28 /* MWNetworkFacade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE2409B28143E9900078C28 /* MWNetworkFacade.swift */; };
 		5AE2409F28143ECE00078C28 /* ResponseGenericModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE2409E28143ECE00078C28 /* ResponseGenericModel.swift */; };
+		5AE240A528143F9B00078C28 /* splashAnimationtest.json in Resources */ = {isa = PBXBuildFile; fileRef = 5AE240A128143F9B00078C28 /* splashAnimationtest.json */; };
+		5AE240A628143F9B00078C28 /* loaderAnimation.json in Resources */ = {isa = PBXBuildFile; fileRef = 5AE240A228143F9B00078C28 /* loaderAnimation.json */; };
+		5AE240A728143F9B00078C28 /* noContents.json in Resources */ = {isa = PBXBuildFile; fileRef = 5AE240A328143F9B00078C28 /* noContents.json */; };
+		5AE240A828143F9B00078C28 /* animationPow.json in Resources */ = {isa = PBXBuildFile; fileRef = 5AE240A428143F9B00078C28 /* animationPow.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -111,6 +115,10 @@
 		5AE2409828143E2400078C28 /* MWContentType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MWContentType.swift; sourceTree = "<group>"; };
 		5AE2409B28143E9900078C28 /* MWNetworkFacade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MWNetworkFacade.swift; sourceTree = "<group>"; };
 		5AE2409E28143ECE00078C28 /* ResponseGenericModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseGenericModel.swift; sourceTree = "<group>"; };
+		5AE240A128143F9B00078C28 /* splashAnimationtest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = splashAnimationtest.json; sourceTree = "<group>"; };
+		5AE240A228143F9B00078C28 /* loaderAnimation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loaderAnimation.json; sourceTree = "<group>"; };
+		5AE240A328143F9B00078C28 /* noContents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = noContents.json; sourceTree = "<group>"; };
+		5AE240A428143F9B00078C28 /* animationPow.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animationPow.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -225,6 +233,7 @@
 		5AE2402C281424AF00078C28 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				5AE240A028143F8E00078C28 /* Animations */,
 				5AE23FF9281414C600078C28 /* Assets.xcassets */,
 			);
 			path = Resources;
@@ -494,6 +503,17 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		5AE240A028143F8E00078C28 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				5AE240A428143F9B00078C28 /* animationPow.json */,
+				5AE240A228143F9B00078C28 /* loaderAnimation.json */,
+				5AE240A328143F9B00078C28 /* noContents.json */,
+				5AE240A128143F9B00078C28 /* splashAnimationtest.json */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -610,9 +630,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				5AE23FFD281414C600078C28 /* LaunchScreen.storyboard in Resources */,
+				5AE240A628143F9B00078C28 /* loaderAnimation.json in Resources */,
 				5AE2404C28142F1600078C28 /* MWSplashViewController.xib in Resources */,
+				5AE240A728143F9B00078C28 /* noContents.json in Resources */,
+				5AE240A528143F9B00078C28 /* splashAnimationtest.json in Resources */,
 				5AE24036281428B400078C28 /* Localizable.strings in Resources */,
 				5AE23FFA281414C600078C28 /* Assets.xcassets in Resources */,
+				5AE240A828143F9B00078C28 /* animationPow.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
