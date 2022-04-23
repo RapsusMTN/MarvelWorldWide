@@ -86,8 +86,6 @@
 		5AE241022814759900078C28 /* MWHomeRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE241012814759900078C28 /* MWHomeRepository.swift */; };
 		5AE24104281475A200078C28 /* MWHomeRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE24103281475A200078C28 /* MWHomeRepositoryProtocol.swift */; };
 		5AE241072814772E00078C28 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE241062814772E00078C28 /* DatabaseManager.swift */; };
-		5AE2411028147D4200078C28 /* ObjectBox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE2410F28147D4200078C28 /* ObjectBox.framework */; platformFilter = ios; };
-		5AE2411128147D4200078C28 /* ObjectBox.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE2410F28147D4200078C28 /* ObjectBox.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5AE241A6281493D600078C28 /* MWDetailDataSourceLocal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE241A5281493D600078C28 /* MWDetailDataSourceLocal.swift */; };
 		5AE241A8281493E200078C28 /* MWDetailDataSourceLocalProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE241A7281493E200078C28 /* MWDetailDataSourceLocalProtocol.swift */; };
 		5AE241AA281494E500078C28 /* MWDetailRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE241A9281494E500078C28 /* MWDetailRepository.swift */; };
@@ -111,20 +109,6 @@
 			remoteInfo = MarvelWorldWide;
 		};
 /* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		5AE2411228147D4200078C28 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				5AE2411128147D4200078C28 /* ObjectBox.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		5AE23FED281414C300078C28 /* MarvelWorldWide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarvelWorldWide.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -228,7 +212,6 @@
 				5AE2405A2814300B00078C28 /* Kingfisher in Frameworks */,
 				5AE2405728142FF000078C28 /* Lottie in Frameworks */,
 				5AE2405D2814302500078C28 /* CryptoSwift in Frameworks */,
-				5AE2411028147D4200078C28 /* ObjectBox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -850,7 +833,6 @@
 				5AE23FE9281414C300078C28 /* Sources */,
 				5AE23FEA281414C300078C28 /* Frameworks */,
 				5AE23FEB281414C300078C28 /* Resources */,
-				5AE2411228147D4200078C28 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
