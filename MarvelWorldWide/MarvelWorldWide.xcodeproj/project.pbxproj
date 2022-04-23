@@ -33,6 +33,19 @@
 		5AE240722814322200078C28 /* EnvironmentProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE240712814322200078C28 /* EnvironmentProperty.swift */; };
 		5AE240742814325F00078C28 /* EnvironmentPropertyProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE240732814325F00078C28 /* EnvironmentPropertyProtocol.swift */; };
 		5AE240782814389D00078C28 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE240772814389D00078C28 /* Constant.swift */; };
+		5AE2407C28143A2700078C28 /* MWColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE2407B28143A2700078C28 /* MWColor.swift */; };
+		5AE2407E28143A7A00078C28 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE2407D28143A7A00078C28 /* UIColorExtension.swift */; };
+		5AE2408128143AF600078C28 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE2408028143AF600078C28 /* Parser.swift */; };
+		5AE2408428143BF300078C28 /* MWLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE2408328143BF300078C28 /* MWLabel.swift */; };
+		5AE2408728143C2700078C28 /* MWImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE2408628143C2700078C28 /* MWImageView.swift */; };
+		5AE2408A28143D2100078C28 /* MWNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE2408928143D2100078C28 /* MWNetwork.swift */; };
+		5AE2408D28143D4300078C28 /* MWNetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE2408C28143D4300078C28 /* MWNetworkError.swift */; };
+		5AE2409028143D9F00078C28 /* MWRequestFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE2408F28143D9F00078C28 /* MWRequestFactory.swift */; };
+		5AE2409328143DC900078C28 /* MWEndpointProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE2409228143DC800078C28 /* MWEndpointProtocol.swift */; };
+		5AE2409628143E0400078C28 /* MWURLMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE2409528143E0400078C28 /* MWURLMethod.swift */; };
+		5AE2409928143E2400078C28 /* MWContentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE2409828143E2400078C28 /* MWContentType.swift */; };
+		5AE2409C28143E9900078C28 /* MWNetworkFacade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE2409B28143E9900078C28 /* MWNetworkFacade.swift */; };
+		5AE2409F28143ECE00078C28 /* ResponseGenericModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE2409E28143ECE00078C28 /* ResponseGenericModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +98,19 @@
 		5AE240712814322200078C28 /* EnvironmentProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentProperty.swift; sourceTree = "<group>"; };
 		5AE240732814325F00078C28 /* EnvironmentPropertyProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentPropertyProtocol.swift; sourceTree = "<group>"; };
 		5AE240772814389D00078C28 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		5AE2407B28143A2700078C28 /* MWColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MWColor.swift; sourceTree = "<group>"; };
+		5AE2407D28143A7A00078C28 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		5AE2408028143AF600078C28 /* Parser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		5AE2408328143BF300078C28 /* MWLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MWLabel.swift; sourceTree = "<group>"; };
+		5AE2408628143C2700078C28 /* MWImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MWImageView.swift; sourceTree = "<group>"; };
+		5AE2408928143D2100078C28 /* MWNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MWNetwork.swift; sourceTree = "<group>"; };
+		5AE2408C28143D4300078C28 /* MWNetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MWNetworkError.swift; sourceTree = "<group>"; };
+		5AE2408F28143D9F00078C28 /* MWRequestFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MWRequestFactory.swift; sourceTree = "<group>"; };
+		5AE2409228143DC800078C28 /* MWEndpointProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MWEndpointProtocol.swift; sourceTree = "<group>"; };
+		5AE2409528143E0400078C28 /* MWURLMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MWURLMethod.swift; sourceTree = "<group>"; };
+		5AE2409828143E2400078C28 /* MWContentType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MWContentType.swift; sourceTree = "<group>"; };
+		5AE2409B28143E9900078C28 /* MWNetworkFacade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MWNetworkFacade.swift; sourceTree = "<group>"; };
+		5AE2409E28143ECE00078C28 /* ResponseGenericModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseGenericModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -215,6 +241,7 @@
 		5AE2402E281424C500078C28 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				5AE2407F28143AEC00078C28 /* Util */,
 				5AE240702814320D00078C28 /* Struct */,
 				5AE240692814318F00078C28 /* Enum */,
 				5AE240662814315200078C28 /* Extension */,
@@ -226,6 +253,8 @@
 		5AE2402F281424E300078C28 /* CommonUI */ = {
 			isa = PBXGroup;
 			children = (
+				5AE2408528143C1600078C28 /* ImageView */,
+				5AE2408228143BDC00078C28 /* Label */,
 				5AE240612814310500078C28 /* ViewController */,
 			);
 			path = CommonUI;
@@ -249,6 +278,14 @@
 		5AE240322814250600078C28 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				5AE2409D28143EB900078C28 /* Model */,
+				5AE2409A28143E6500078C28 /* Facade */,
+				5AE2409728143E0C00078C28 /* ContentType */,
+				5AE2409428143DDD00078C28 /* URLMethod */,
+				5AE2409128143DAE00078C28 /* Endpoint */,
+				5AE2408E28143D8600078C28 /* Request */,
+				5AE2408B28143D3A00078C28 /* Error */,
+				5AE2408828143D0200078C28 /* Main */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -321,6 +358,7 @@
 				5AE240672814316200078C28 /* ViewExtension.swift */,
 				5AE2406C281431CC00078C28 /* StringExtension.swift */,
 				5AE2406E281431F000078C28 /* URLComponentExtension.swift */,
+				5AE2407D28143A7A00078C28 /* UIColorExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -328,6 +366,7 @@
 		5AE240692814318F00078C28 /* Enum */ = {
 			isa = PBXGroup;
 			children = (
+				5AE2407A28143A1A00078C28 /* Color */,
 				5AE2406A2814319B00078C28 /* AnimationAction.swift */,
 			);
 			path = Enum;
@@ -357,6 +396,102 @@
 				5AE240772814389D00078C28 /* Constant.swift */,
 			);
 			path = Constant;
+			sourceTree = "<group>";
+		};
+		5AE2407A28143A1A00078C28 /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				5AE2407B28143A2700078C28 /* MWColor.swift */,
+			);
+			path = Color;
+			sourceTree = "<group>";
+		};
+		5AE2407F28143AEC00078C28 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				5AE2408028143AF600078C28 /* Parser.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		5AE2408228143BDC00078C28 /* Label */ = {
+			isa = PBXGroup;
+			children = (
+				5AE2408328143BF300078C28 /* MWLabel.swift */,
+			);
+			path = Label;
+			sourceTree = "<group>";
+		};
+		5AE2408528143C1600078C28 /* ImageView */ = {
+			isa = PBXGroup;
+			children = (
+				5AE2408628143C2700078C28 /* MWImageView.swift */,
+			);
+			path = ImageView;
+			sourceTree = "<group>";
+		};
+		5AE2408828143D0200078C28 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				5AE2408928143D2100078C28 /* MWNetwork.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		5AE2408B28143D3A00078C28 /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				5AE2408C28143D4300078C28 /* MWNetworkError.swift */,
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
+		5AE2408E28143D8600078C28 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				5AE2408F28143D9F00078C28 /* MWRequestFactory.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		5AE2409128143DAE00078C28 /* Endpoint */ = {
+			isa = PBXGroup;
+			children = (
+				5AE2409228143DC800078C28 /* MWEndpointProtocol.swift */,
+			);
+			path = Endpoint;
+			sourceTree = "<group>";
+		};
+		5AE2409428143DDD00078C28 /* URLMethod */ = {
+			isa = PBXGroup;
+			children = (
+				5AE2409528143E0400078C28 /* MWURLMethod.swift */,
+			);
+			path = URLMethod;
+			sourceTree = "<group>";
+		};
+		5AE2409728143E0C00078C28 /* ContentType */ = {
+			isa = PBXGroup;
+			children = (
+				5AE2409828143E2400078C28 /* MWContentType.swift */,
+			);
+			path = ContentType;
+			sourceTree = "<group>";
+		};
+		5AE2409A28143E6500078C28 /* Facade */ = {
+			isa = PBXGroup;
+			children = (
+				5AE2409B28143E9900078C28 /* MWNetworkFacade.swift */,
+			);
+			path = Facade;
+			sourceTree = "<group>";
+		};
+		5AE2409D28143EB900078C28 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5AE2409E28143ECE00078C28 /* ResponseGenericModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -503,19 +638,32 @@
 			buildActionMask = 2147483647;
 			files = (
 				5AE240722814322200078C28 /* EnvironmentProperty.swift in Sources */,
+				5AE2407C28143A2700078C28 /* MWColor.swift in Sources */,
+				5AE2409C28143E9900078C28 /* MWNetworkFacade.swift in Sources */,
 				5AE2404928142ED400078C28 /* MWSplashCoordinator.swift in Sources */,
+				5AE2409328143DC900078C28 /* MWEndpointProtocol.swift in Sources */,
 				5AE2405128142F5A00078C28 /* MWSplashViewModel.swift in Sources */,
 				5AE240782814389D00078C28 /* Constant.swift in Sources */,
+				5AE2407E28143A7A00078C28 /* UIColorExtension.swift in Sources */,
+				5AE2409028143D9F00078C28 /* MWRequestFactory.swift in Sources */,
+				5AE2408A28143D2100078C28 /* MWNetwork.swift in Sources */,
 				5AE2406B2814319B00078C28 /* AnimationAction.swift in Sources */,
+				5AE2409628143E0400078C28 /* MWURLMethod.swift in Sources */,
 				5AE2404D28142F1600078C28 /* MWSplashViewController.swift in Sources */,
+				5AE2409F28143ECE00078C28 /* ResponseGenericModel.swift in Sources */,
 				5AE2405028142F5A00078C28 /* MWSplashViewModelProtocol.swift in Sources */,
 				5AE240682814316300078C28 /* ViewExtension.swift in Sources */,
+				5AE2408728143C2700078C28 /* MWImageView.swift in Sources */,
 				5AE23FF1281414C300078C28 /* AppDelegate.swift in Sources */,
 				5AE240742814325F00078C28 /* EnvironmentPropertyProtocol.swift in Sources */,
+				5AE2408D28143D4300078C28 /* MWNetworkError.swift in Sources */,
+				5AE2408428143BF300078C28 /* MWLabel.swift in Sources */,
 				5AE240632814311500078C28 /* BaseViewController.swift in Sources */,
 				5AE2406D281431CC00078C28 /* StringExtension.swift in Sources */,
 				5AE2404828142ED400078C28 /* MWSplashCoordinatorProtocol.swift in Sources */,
+				5AE2408128143AF600078C28 /* Parser.swift in Sources */,
 				5AE240652814312B00078C28 /* BaseViewControllerProtocol.swift in Sources */,
+				5AE2409928143E2400078C28 /* MWContentType.swift in Sources */,
 				5AE24060281430C100078C28 /* MWCoordinatorProtocol.swift in Sources */,
 				5AE2406F281431F000078C28 /* URLComponentExtension.swift in Sources */,
 			);
