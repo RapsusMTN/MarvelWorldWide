@@ -18,6 +18,8 @@ public enum MWNetworkError: Error {
     case badRequest(message: String)
     case unAuthorized(message: String)
     case internalServer(message: String)
+    case saveModelDataBaseError
+    case getModelDataBaseError
     
     public var description: String {
         switch self {
@@ -27,6 +29,10 @@ public enum MWNetworkError: Error {
             return "Invalid Response Error"
         case .invalidRequest:
             return "Invalid Request Error"
+        case .saveModelDataBaseError:
+            return "No se han podido almacenar los datos en la caché"
+        case .getModelDataBaseError:
+            return "No se han podido recuperar los datos de la caché"
         }
     }
 }

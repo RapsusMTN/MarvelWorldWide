@@ -31,6 +31,7 @@ class MWSplashCoordinator: MWParentCoordinatorProtocol, MWSplashCoordinatorProto
     
     // MARK: - Routing
     func navigateToHome() {
-        
+        let coordinator = MWHomeCoordinator(navigationController: navigationController)
+        coordinator.start()
     }
 }

@@ -66,6 +66,33 @@
 		5AE240CD28146F8E00078C28 /* MWHomeListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE240CB28146F8E00078C28 /* MWHomeListTableViewCell.swift */; };
 		5AE240CF28146FBF00078C28 /* MWHomeListCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE240CE28146FBF00078C28 /* MWHomeListCellModel.swift */; };
 		5AE240D12814716000078C28 /* MWHomeListViewController+UISearchBarDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE240D02814716000078C28 /* MWHomeListViewController+UISearchBarDelegate.swift */; };
+		5AE240DB2814727C00078C28 /* MWDetailCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE240D92814727C00078C28 /* MWDetailCoordinator.swift */; };
+		5AE240DC2814727C00078C28 /* MWDetailCoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE240DA2814727C00078C28 /* MWDetailCoordinatorProtocol.swift */; };
+		5AE240E12814729E00078C28 /* MWDetailDataSourceAPIProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE240DF2814729E00078C28 /* MWDetailDataSourceAPIProtocol.swift */; };
+		5AE240E22814729E00078C28 /* MWDetailDataSourceAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE240E02814729E00078C28 /* MWDetailDataSourceAPI.swift */; };
+		5AE240E4281472C100078C28 /* RelatedElementModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE240E3281472C100078C28 /* RelatedElementModel.swift */; };
+		5AE240E7281472E500078C28 /* MWDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE240E5281472E500078C28 /* MWDetailViewController.swift */; };
+		5AE240E8281472E500078C28 /* MWDetailViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE240E6281472E500078C28 /* MWDetailViewControllerProtocol.swift */; };
+		5AE240EA281472FD00078C28 /* MWDetailViewControllerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE240E9281472FD00078C28 /* MWDetailViewControllerModel.swift */; };
+		5AE240ED2814732900078C28 /* MWDetailViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE240EB2814732900078C28 /* MWDetailViewModelProtocol.swift */; };
+		5AE240EE2814732900078C28 /* MWDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE240EC2814732900078C28 /* MWDetailViewModel.swift */; };
+		5AE240F02814736B00078C28 /* CommonElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE240EF2814736B00078C28 /* CommonElement.swift */; };
+		5AE240F52814745B00078C28 /* MWDetailEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE240F42814745B00078C28 /* MWDetailEndpoint.swift */; };
+		5AE240F72814749300078C28 /* MWDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5AE240F62814749300078C28 /* MWDetailViewController.xib */; };
+		5AE240FC281474DA00078C28 /* CommonCollectionViewElementModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE240F9281474DA00078C28 /* CommonCollectionViewElementModel.swift */; };
+		5AE240FD281474DA00078C28 /* CommonCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE240FA281474DA00078C28 /* CommonCollectionViewCell.swift */; };
+		5AE240FE281474DB00078C28 /* CommonCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5AE240FB281474DA00078C28 /* CommonCollectionViewCell.xib */; };
+		5AE241002814750A00078C28 /* MWDetailViewController+UICollectionViewDelegate+DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE240FF2814750A00078C28 /* MWDetailViewController+UICollectionViewDelegate+DataSource.swift */; };
+		5AE241022814759900078C28 /* MWHomeRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE241012814759900078C28 /* MWHomeRepository.swift */; };
+		5AE24104281475A200078C28 /* MWHomeRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE24103281475A200078C28 /* MWHomeRepositoryProtocol.swift */; };
+		5AE241072814772E00078C28 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE241062814772E00078C28 /* DatabaseManager.swift */; };
+		5AE2411028147D4200078C28 /* ObjectBox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE2410F28147D4200078C28 /* ObjectBox.framework */; platformFilter = ios; };
+		5AE2411128147D4200078C28 /* ObjectBox.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE2410F28147D4200078C28 /* ObjectBox.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5AE241A6281493D600078C28 /* MWDetailDataSourceLocal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE241A5281493D600078C28 /* MWDetailDataSourceLocal.swift */; };
+		5AE241A8281493E200078C28 /* MWDetailDataSourceLocalProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE241A7281493E200078C28 /* MWDetailDataSourceLocalProtocol.swift */; };
+		5AE241AA281494E500078C28 /* MWDetailRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE241A9281494E500078C28 /* MWDetailRepository.swift */; };
+		5AE241AC281494F300078C28 /* MWDetailRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE241AB281494F300078C28 /* MWDetailRepositoryProtocol.swift */; };
+		5AE241AE28149C2D00078C28 /* RelatedElementType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE241AD28149C2D00078C28 /* RelatedElementType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +111,20 @@
 			remoteInfo = MarvelWorldWide;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5AE2411228147D4200078C28 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				5AE2411128147D4200078C28 /* ObjectBox.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		5AE23FED281414C300078C28 /* MarvelWorldWide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarvelWorldWide.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -151,6 +192,32 @@
 		5AE240CB28146F8E00078C28 /* MWHomeListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MWHomeListTableViewCell.swift; sourceTree = "<group>"; };
 		5AE240CE28146FBF00078C28 /* MWHomeListCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MWHomeListCellModel.swift; sourceTree = "<group>"; };
 		5AE240D02814716000078C28 /* MWHomeListViewController+UISearchBarDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MWHomeListViewController+UISearchBarDelegate.swift"; sourceTree = "<group>"; };
+		5AE240D92814727C00078C28 /* MWDetailCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MWDetailCoordinator.swift; sourceTree = "<group>"; };
+		5AE240DA2814727C00078C28 /* MWDetailCoordinatorProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MWDetailCoordinatorProtocol.swift; sourceTree = "<group>"; };
+		5AE240DF2814729E00078C28 /* MWDetailDataSourceAPIProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MWDetailDataSourceAPIProtocol.swift; sourceTree = "<group>"; };
+		5AE240E02814729E00078C28 /* MWDetailDataSourceAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MWDetailDataSourceAPI.swift; sourceTree = "<group>"; };
+		5AE240E3281472C100078C28 /* RelatedElementModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelatedElementModel.swift; sourceTree = "<group>"; };
+		5AE240E5281472E500078C28 /* MWDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MWDetailViewController.swift; sourceTree = "<group>"; };
+		5AE240E6281472E500078C28 /* MWDetailViewControllerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MWDetailViewControllerProtocol.swift; sourceTree = "<group>"; };
+		5AE240E9281472FD00078C28 /* MWDetailViewControllerModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MWDetailViewControllerModel.swift; sourceTree = "<group>"; };
+		5AE240EB2814732900078C28 /* MWDetailViewModelProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MWDetailViewModelProtocol.swift; sourceTree = "<group>"; };
+		5AE240EC2814732900078C28 /* MWDetailViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MWDetailViewModel.swift; sourceTree = "<group>"; };
+		5AE240EF2814736B00078C28 /* CommonElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonElement.swift; sourceTree = "<group>"; };
+		5AE240F42814745B00078C28 /* MWDetailEndpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MWDetailEndpoint.swift; sourceTree = "<group>"; };
+		5AE240F62814749300078C28 /* MWDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MWDetailViewController.xib; sourceTree = "<group>"; };
+		5AE240F9281474DA00078C28 /* CommonCollectionViewElementModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonCollectionViewElementModel.swift; sourceTree = "<group>"; };
+		5AE240FA281474DA00078C28 /* CommonCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonCollectionViewCell.swift; sourceTree = "<group>"; };
+		5AE240FB281474DA00078C28 /* CommonCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommonCollectionViewCell.xib; sourceTree = "<group>"; };
+		5AE240FF2814750A00078C28 /* MWDetailViewController+UICollectionViewDelegate+DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MWDetailViewController+UICollectionViewDelegate+DataSource.swift"; sourceTree = "<group>"; };
+		5AE241012814759900078C28 /* MWHomeRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MWHomeRepository.swift; sourceTree = "<group>"; };
+		5AE24103281475A200078C28 /* MWHomeRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MWHomeRepositoryProtocol.swift; sourceTree = "<group>"; };
+		5AE241062814772E00078C28 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		5AE2410F28147D4200078C28 /* ObjectBox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjectBox.framework; path = "ObjectBox-xcframework-1.7.0/ObjectBox.xcframework/ios-arm64_x86_64-simulator/ObjectBox.framework"; sourceTree = "<group>"; };
+		5AE241A5281493D600078C28 /* MWDetailDataSourceLocal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MWDetailDataSourceLocal.swift; sourceTree = "<group>"; };
+		5AE241A7281493E200078C28 /* MWDetailDataSourceLocalProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MWDetailDataSourceLocalProtocol.swift; sourceTree = "<group>"; };
+		5AE241A9281494E500078C28 /* MWDetailRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MWDetailRepository.swift; sourceTree = "<group>"; };
+		5AE241AB281494F300078C28 /* MWDetailRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MWDetailRepositoryProtocol.swift; sourceTree = "<group>"; };
+		5AE241AD28149C2D00078C28 /* RelatedElementType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelatedElementType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +228,7 @@
 				5AE2405A2814300B00078C28 /* Kingfisher in Frameworks */,
 				5AE2405728142FF000078C28 /* Lottie in Frameworks */,
 				5AE2405D2814302500078C28 /* CryptoSwift in Frameworks */,
+				5AE2411028147D4200078C28 /* ObjectBox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,6 +256,7 @@
 				5AE24006281414C600078C28 /* MarvelWorldWideTests */,
 				5AE24010281414C600078C28 /* MarvelWorldWideUITests */,
 				5AE23FEE281414C300078C28 /* Products */,
+				5AE2410E28147D4200078C28 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -282,6 +351,7 @@
 		5AE2402E281424C500078C28 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				5AE241052814770100078C28 /* Database */,
 				5AE2407F28143AEC00078C28 /* Util */,
 				5AE240702814320D00078C28 /* Struct */,
 				5AE240692814318F00078C28 /* Enum */,
@@ -294,6 +364,7 @@
 		5AE2402F281424E300078C28 /* CommonUI */ = {
 			isa = PBXGroup;
 			children = (
+				5AE240F8281474CD00078C28 /* CollectionViewCell */,
 				5AE2408528143C1600078C28 /* ImageView */,
 				5AE2408228143BDC00078C28 /* Label */,
 				5AE240612814310500078C28 /* ViewController */,
@@ -334,6 +405,7 @@
 		5AE240332814288D00078C28 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				5AE240D22814720500078C28 /* MWDetail */,
 				5AE240A928144D3900078C28 /* MWHome */,
 				5AE2403A28142E7800078C28 /* MWSplash */,
 			);
@@ -410,6 +482,7 @@
 			children = (
 				5AE2407A28143A1A00078C28 /* Color */,
 				5AE2406A2814319B00078C28 /* AnimationAction.swift */,
+				5AE241AD28149C2D00078C28 /* RelatedElementType.swift */,
 			);
 			path = Enum;
 			sourceTree = "<group>";
@@ -564,8 +637,7 @@
 			children = (
 				5AE240AE28144D7700078C28 /* Endpoint */,
 				5AE240AB28144D4700078C28 /* Model */,
-				5AE240B128144DE100078C28 /* MWHomeDataSourceAPI.swift */,
-				5AE240B328144E1A00078C28 /* MWHomeDataSourceAPIProtocol.swift */,
+				5AE241082814783A00078C28 /* API */,
 			);
 			path = DataSource;
 			sourceTree = "<group>";
@@ -607,6 +679,8 @@
 		5AE240BF28144F1100078C28 /* Repository */ = {
 			isa = PBXGroup;
 			children = (
+				5AE241012814759900078C28 /* MWHomeRepository.swift */,
+				5AE24103281475A200078C28 /* MWHomeRepositoryProtocol.swift */,
 			);
 			path = Repository;
 			sourceTree = "<group>";
@@ -634,6 +708,138 @@
 			path = Cell;
 			sourceTree = "<group>";
 		};
+		5AE240D22814720500078C28 /* MWDetail */ = {
+			isa = PBXGroup;
+			children = (
+				5AE240D82814727100078C28 /* Coordinator */,
+				5AE240D72814726300078C28 /* DataSource */,
+				5AE240D52814725500078C28 /* Repository */,
+				5AE240D42814725100078C28 /* ViewModel */,
+				5AE240D32814724C00078C28 /* View */,
+			);
+			path = MWDetail;
+			sourceTree = "<group>";
+		};
+		5AE240D32814724C00078C28 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5AE240F62814749300078C28 /* MWDetailViewController.xib */,
+				5AE240E9281472FD00078C28 /* MWDetailViewControllerModel.swift */,
+				5AE240E5281472E500078C28 /* MWDetailViewController.swift */,
+				5AE240E6281472E500078C28 /* MWDetailViewControllerProtocol.swift */,
+				5AE240EF2814736B00078C28 /* CommonElement.swift */,
+				5AE240FF2814750A00078C28 /* MWDetailViewController+UICollectionViewDelegate+DataSource.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5AE240D42814725100078C28 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5AE240EC2814732900078C28 /* MWDetailViewModel.swift */,
+				5AE240EB2814732900078C28 /* MWDetailViewModelProtocol.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5AE240D52814725500078C28 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				5AE241A9281494E500078C28 /* MWDetailRepository.swift */,
+				5AE241AB281494F300078C28 /* MWDetailRepositoryProtocol.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		5AE240D72814726300078C28 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				5AE241A4281493C500078C28 /* Local */,
+				5AE241A3281493BE00078C28 /* API */,
+				5AE240DE2814729500078C28 /* Model */,
+				5AE240DD2814729000078C28 /* Endpoint */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		5AE240D82814727100078C28 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				5AE240D92814727C00078C28 /* MWDetailCoordinator.swift */,
+				5AE240DA2814727C00078C28 /* MWDetailCoordinatorProtocol.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		5AE240DD2814729000078C28 /* Endpoint */ = {
+			isa = PBXGroup;
+			children = (
+				5AE240F42814745B00078C28 /* MWDetailEndpoint.swift */,
+			);
+			path = Endpoint;
+			sourceTree = "<group>";
+		};
+		5AE240DE2814729500078C28 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5AE240E3281472C100078C28 /* RelatedElementModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5AE240F8281474CD00078C28 /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				5AE240FA281474DA00078C28 /* CommonCollectionViewCell.swift */,
+				5AE240FB281474DA00078C28 /* CommonCollectionViewCell.xib */,
+				5AE240F9281474DA00078C28 /* CommonCollectionViewElementModel.swift */,
+			);
+			path = CollectionViewCell;
+			sourceTree = "<group>";
+		};
+		5AE241052814770100078C28 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				5AE241062814772E00078C28 /* DatabaseManager.swift */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		5AE241082814783A00078C28 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				5AE240B128144DE100078C28 /* MWHomeDataSourceAPI.swift */,
+				5AE240B328144E1A00078C28 /* MWHomeDataSourceAPIProtocol.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		5AE2410E28147D4200078C28 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5AE2410F28147D4200078C28 /* ObjectBox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5AE241A3281493BE00078C28 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				5AE240E02814729E00078C28 /* MWDetailDataSourceAPI.swift */,
+				5AE240DF2814729E00078C28 /* MWDetailDataSourceAPIProtocol.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		5AE241A4281493C500078C28 /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				5AE241A5281493D600078C28 /* MWDetailDataSourceLocal.swift */,
+				5AE241A7281493E200078C28 /* MWDetailDataSourceLocalProtocol.swift */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -644,6 +850,7 @@
 				5AE23FE9281414C300078C28 /* Sources */,
 				5AE23FEA281414C300078C28 /* Frameworks */,
 				5AE23FEB281414C300078C28 /* Resources */,
+				5AE2411228147D4200078C28 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -754,6 +961,8 @@
 				5AE2404C28142F1600078C28 /* MWSplashViewController.xib in Resources */,
 				5AE240C228144F3D00078C28 /* MWHomeListViewController.xib in Resources */,
 				5AE240A728143F9B00078C28 /* noContents.json in Resources */,
+				5AE240FE281474DB00078C28 /* CommonCollectionViewCell.xib in Resources */,
+				5AE240F72814749300078C28 /* MWDetailViewController.xib in Resources */,
 				5AE240A528143F9B00078C28 /* splashAnimationtest.json in Resources */,
 				5AE24036281428B400078C28 /* Localizable.strings in Resources */,
 				5AE23FFA281414C600078C28 /* Assets.xcassets in Resources */,
@@ -787,45 +996,68 @@
 				5AE2407C28143A2700078C28 /* MWColor.swift in Sources */,
 				5AE240CD28146F8E00078C28 /* MWHomeListTableViewCell.swift in Sources */,
 				5AE2409C28143E9900078C28 /* MWNetworkFacade.swift in Sources */,
+				5AE240FC281474DA00078C28 /* CommonCollectionViewElementModel.swift in Sources */,
+				5AE241AC281494F300078C28 /* MWDetailRepositoryProtocol.swift in Sources */,
+				5AE240EE2814732900078C28 /* MWDetailViewModel.swift in Sources */,
 				5AE240D12814716000078C28 /* MWHomeListViewController+UISearchBarDelegate.swift in Sources */,
 				5AE240B828144E9B00078C28 /* MWHomeViewModel.swift in Sources */,
 				5AE2404928142ED400078C28 /* MWSplashCoordinator.swift in Sources */,
+				5AE240DB2814727C00078C28 /* MWDetailCoordinator.swift in Sources */,
 				5AE240CF28146FBF00078C28 /* MWHomeListCellModel.swift in Sources */,
 				5AE2409328143DC900078C28 /* MWEndpointProtocol.swift in Sources */,
 				5AE240B028144D8D00078C28 /* MWHomeEndpoint.swift in Sources */,
 				5AE240B228144DE100078C28 /* MWHomeDataSourceAPI.swift in Sources */,
+				5AE241072814772E00078C28 /* DatabaseManager.swift in Sources */,
 				5AE2405128142F5A00078C28 /* MWSplashViewModel.swift in Sources */,
 				5AE240782814389D00078C28 /* Constant.swift in Sources */,
+				5AE24104281475A200078C28 /* MWHomeRepositoryProtocol.swift in Sources */,
 				5AE2407E28143A7A00078C28 /* UIColorExtension.swift in Sources */,
 				5AE240B428144E1A00078C28 /* MWHomeDataSourceAPIProtocol.swift in Sources */,
+				5AE240E4281472C100078C28 /* RelatedElementModel.swift in Sources */,
 				5AE2409028143D9F00078C28 /* MWRequestFactory.swift in Sources */,
+				5AE240DC2814727C00078C28 /* MWDetailCoordinatorProtocol.swift in Sources */,
 				5AE240C828144F9A00078C28 /* MWHomeListViewController+UITableViewDelegate+DataSource.swift in Sources */,
 				5AE2408A28143D2100078C28 /* MWNetwork.swift in Sources */,
+				5AE241AE28149C2D00078C28 /* RelatedElementType.swift in Sources */,
 				5AE2406B2814319B00078C28 /* AnimationAction.swift in Sources */,
 				5AE2409628143E0400078C28 /* MWURLMethod.swift in Sources */,
 				5AE240BA28144EA400078C28 /* MWHomeViewModelProtocol.swift in Sources */,
+				5AE241022814759900078C28 /* MWHomeRepository.swift in Sources */,
 				5AE240C628144F6200078C28 /* MWHomeListViewControllerProtocol.swift in Sources */,
 				5AE2404D28142F1600078C28 /* MWSplashViewController.swift in Sources */,
 				5AE2409F28143ECE00078C28 /* ResponseGenericModel.swift in Sources */,
 				5AE2405028142F5A00078C28 /* MWSplashViewModelProtocol.swift in Sources */,
+				5AE241A8281493E200078C28 /* MWDetailDataSourceLocalProtocol.swift in Sources */,
+				5AE240F52814745B00078C28 /* MWDetailEndpoint.swift in Sources */,
 				5AE240BE28144EBF00078C28 /* MWHomeCoordinatorProtocol.swift in Sources */,
+				5AE240E8281472E500078C28 /* MWDetailViewControllerProtocol.swift in Sources */,
 				5AE240682814316300078C28 /* ViewExtension.swift in Sources */,
 				5AE2408728143C2700078C28 /* MWImageView.swift in Sources */,
 				5AE23FF1281414C300078C28 /* AppDelegate.swift in Sources */,
 				5AE240BC28144EAF00078C28 /* MWHomeCoordinator.swift in Sources */,
+				5AE240E12814729E00078C28 /* MWDetailDataSourceAPIProtocol.swift in Sources */,
+				5AE241AA281494E500078C28 /* MWDetailRepository.swift in Sources */,
 				5AE240742814325F00078C28 /* EnvironmentPropertyProtocol.swift in Sources */,
 				5AE2408D28143D4300078C28 /* MWNetworkError.swift in Sources */,
+				5AE240FD281474DA00078C28 /* CommonCollectionViewCell.swift in Sources */,
 				5AE2408428143BF300078C28 /* MWLabel.swift in Sources */,
 				5AE240AD28144D5100078C28 /* CharacterModel.swift in Sources */,
 				5AE240632814311500078C28 /* BaseViewController.swift in Sources */,
+				5AE241002814750A00078C28 /* MWDetailViewController+UICollectionViewDelegate+DataSource.swift in Sources */,
 				5AE2406D281431CC00078C28 /* StringExtension.swift in Sources */,
+				5AE241A6281493D600078C28 /* MWDetailDataSourceLocal.swift in Sources */,
+				5AE240E7281472E500078C28 /* MWDetailViewController.swift in Sources */,
 				5AE2404828142ED400078C28 /* MWSplashCoordinatorProtocol.swift in Sources */,
+				5AE240EA281472FD00078C28 /* MWDetailViewControllerModel.swift in Sources */,
 				5AE2408128143AF600078C28 /* Parser.swift in Sources */,
 				5AE240C428144F4900078C28 /* MWHomeListViewController.swift in Sources */,
+				5AE240F02814736B00078C28 /* CommonElement.swift in Sources */,
 				5AE240652814312B00078C28 /* BaseViewControllerProtocol.swift in Sources */,
 				5AE2409928143E2400078C28 /* MWContentType.swift in Sources */,
 				5AE24060281430C100078C28 /* MWCoordinatorProtocol.swift in Sources */,
 				5AE2406F281431F000078C28 /* URLComponentExtension.swift in Sources */,
+				5AE240E22814729E00078C28 /* MWDetailDataSourceAPI.swift in Sources */,
+				5AE240ED2814732900078C28 /* MWDetailViewModelProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1012,6 +1244,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = WKC39BTC73;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ObjectBox-xcframework-1.7.0/ObjectBox.xcframework/ios-arm64_x86_64-simulator",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MarvelWorldWide/Configuration/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -1041,6 +1277,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = WKC39BTC73;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ObjectBox-xcframework-1.7.0/ObjectBox.xcframework/ios-arm64_x86_64-simulator",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MarvelWorldWide/Configuration/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -1213,6 +1453,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = WKC39BTC73;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ObjectBox-xcframework-1.7.0/ObjectBox.xcframework/ios-arm64_x86_64-simulator",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MarvelWorldWide/Configuration/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

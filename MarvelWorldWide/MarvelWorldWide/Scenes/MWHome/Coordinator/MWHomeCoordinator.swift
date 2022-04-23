@@ -30,6 +30,7 @@ class MWHomeCoordinator: MWCoordinatorProtocol, MWHomeCoordinatorProtocol {
     
     // MARK: - Routing
     func navigateToCharacterDetail(characterId: Int) {
-        
+        let coordinator = MWDetailCoordinator(navigationController: navigationController, characterId: characterId)
+        coordinator.start()
     }
 }

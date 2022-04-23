@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19574" systemVersion="20G224" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="CharacterDetail" representedClassName="CharacterDetail" syncable="YES" codeGenerationType="class">
+        <attribute name="comics" optional="YES" attributeType="Transformable" customClassName="[CommonElement]"/>
+        <attribute name="descriptionDetail" optional="YES" attributeType="String"/>
+        <attribute name="imageURL" optional="YES" attributeType="Binary"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="RelatedElement" representedClassName="RelatedElement" syncable="YES" codeGenerationType="class">
+        <attribute name="descriptionElement" optional="YES" attributeType="String"/>
+        <attribute name="imageURL" optional="YES" attributeType="Binary"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="CharacterDetail" positionX="-63" positionY="-18" width="128" height="89"/>
+        <element name="RelatedElement" positionX="-54" positionY="0" width="128" height="74"/>
+    </elements>
+</model>
