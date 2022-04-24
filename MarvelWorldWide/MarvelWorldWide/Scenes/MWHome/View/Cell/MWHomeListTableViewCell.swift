@@ -22,7 +22,11 @@ class MWHomeListTableViewCell: UITableViewCell {
         }
     }
     
-    @IBOutlet weak var characterImageView: CommonImageView!
+    @IBOutlet weak var characterImageView: CommonImageView! {
+        didSet {
+            characterImageView.cornerRadiusActive = true
+        }
+    }
     
     @IBOutlet weak var characterNameLabel: CommonLabel!
     

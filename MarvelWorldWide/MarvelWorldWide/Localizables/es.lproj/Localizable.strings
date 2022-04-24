@@ -5,3 +5,11 @@
   Created by akreyers on 23/4/22.
   
 */
+
+// MARK: - MWHomeListViewController
+"Home_home_list_navbar_title_label" = "Personajes";
+"Home_home_list_description_empty_title_label" = "Descripción vacía";
+
+// MARK: - BaseViewController
+"Base_controller_error_alert_title_label" = "Error";
+"Test_error_generic" = "No se han podido leer los datos porque no se encuentran.";
