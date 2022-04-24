@@ -28,8 +28,7 @@ This app is a simple demo to show the functionality of the API with iOS.
 ## Important
 
 To use Marvel API you should create an account and generate an API key and configure the .xcconfig files depending on the development environment in which we want to launch our application.
-Example:[Realease.xcconfig](https://github.com/RapsusMTN/MarvelWorldwideApp/tree/main/Marvel
-ideApp/MarvelWorldWide/Configuration/Environment), changing your created API key.
+Example:[Realease.xcconfig](https://github.com/RapsusMTN/MarvelWorldWide/blob/main/MarvelWorldWide/MarvelWorldWide/Configuration/Environment/Release.xcconfig), changing your created API key.
 
 ## Environment
 
