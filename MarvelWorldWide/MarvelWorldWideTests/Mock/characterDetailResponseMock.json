@@ -1,0 +1,369 @@
+{
+  "code": 200,
+  "status": "Ok",
+  "copyright": "© 2022 MARVEL",
+  "attributionText": "Data provided by Marvel. © 2022 MARVEL",
+  "attributionHTML": "<a href=\"http://marvel.com\">Data provided by Marvel. © 2022 MARVEL</a>",
+  "etag": "33794c566e5b9b89b880585032ac0e39daa7d0d9",
+  "data": {
+    "offset": 0,
+    "limit": 20,
+    "total": 1,
+    "count": 1,
+    "results": [
+      {
+        "id": 1009499,
+        "name": "Polaris",
+        "description": "",
+        "modified": "2013-11-01T16:43:39-0400",
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/c/c0/5274122562b05",
+          "extension": "jpg"
+        },
+        "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009499",
+        "comics": {
+          "available": 265,
+          "collectionURI": "http://gateway.marvel.com/v1/public/characters/1009499/comics",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/7455",
+              "name": "Cable (1993) #76"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/7457",
+              "name": "Cable (1993) #78"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/20603",
+              "name": "Classic X-Men (1986) #5"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/20566",
+              "name": "Classic X-Men (1986) #12"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/20567",
+              "name": "Classic X-Men (1986) #13"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/20589",
+              "name": "Classic X-Men (1986) #33"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/4072",
+              "name": "Decimation: X-Men the Day After (Trade Paperback)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/20374",
+              "name": "Defenders (1972) #63"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/20233",
+              "name": "Doctor Strange, Sorcerer Supreme (1988) #69"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/8555",
+              "name": "Earth X (1999) #5"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/8556",
+              "name": "Earth X (1999) #6"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/4241",
+              "name": "EARTH X TPB [NEW PRINTING] (Trade Paperback)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/24259",
+              "name": "Fantastic Force (2009) #2"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/25161",
+              "name": "Fantastic Force (2009) #3"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/3463",
+              "name": "House of M: Uncanny X-Men (Trade Paperback)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/9202",
+              "name": "Incredible Hulk (1962) #391"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/9203",
+              "name": "Incredible Hulk (1962) #392"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/17457",
+              "name": "Infinity War (Trade Paperback)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/52069",
+              "name": "Magneto (2014) #20"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/52070",
+              "name": "Magneto (2014) #21"
+            }
+          ],
+          "returned": 20
+        },
+        "series": {
+          "available": 68,
+          "collectionURI": "http://gateway.marvel.com/v1/public/characters/1009499/series",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/1995",
+              "name": "Cable (1993 - 2002)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/3751",
+              "name": "Classic X-Men (1986 - 1990)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/1643",
+              "name": "Decimation: X-Men the Day After (2006)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/3743",
+              "name": "Defenders (1972 - 1986)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/3741",
+              "name": "Doctor Strange, Sorcerer Supreme (1988 - 1996)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/378",
+              "name": "Earth X (1999 - 2000)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/1806",
+              "name": "EARTH X TPB [NEW PRINTING] (2006)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/7238",
+              "name": "Fantastic Force (2009)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/1412",
+              "name": "House of M: Uncanny X-Men (2006)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/2021",
+              "name": "Incredible Hulk (1962 - 1999)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/3289",
+              "name": "Infinity War (2005)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/18407",
+              "name": "Magneto (2014 - 2015)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/1440",
+              "name": "MARVEL MASTERWORKS: THE UNCANNY X-MEN VOL. 2 HC (2005)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/3460",
+              "name": "MARVEL MASTERWORKS: THE UNCANNY X-MEN VOL. 6 HC (2008)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/1595",
+              "name": "Marvel Visionaries: Chris Claremont (2005)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/8131",
+              "name": "Moon Knight Vol. 5: Down South (2009 - Present)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/8132",
+              "name": "Moon Knight Vol. 5: Down South (2009 - Present)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/8133",
+              "name": "Ms. Marvel Vol. 6: Ascension (2009 - Present)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/8135",
+              "name": "Ms. Marvel Vol. 7: Dark Reign (2009 - Present)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/8134",
+              "name": "Ms. Marvel Vol. 7: Dark Reign (2009 - Present)"
+            }
+          ],
+          "returned": 20
+        },
+        "stories": {
+          "available": 309,
+          "collectionURI": "http://gateway.marvel.com/v1/public/characters/1009499/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/594",
+              "name": "X-MEN (2004) #164",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/624",
+              "name": "X-MEN (2004) #162",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/630",
+              "name": "X-MEN (2004) #166",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/634",
+              "name": "X-MEN (2004) #168",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/636",
+              "name": "X-MEN (2004) #169",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/638",
+              "name": "X-MEN (2004) #170",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/648",
+              "name": "1 of 2- Black Panther crossover",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/660",
+              "name": "X-MEN (2004) #181",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/668",
+              "name": "X-MEN (2004) #185",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/672",
+              "name": "X-MEN (2004) #187",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/749",
+              "name": "1 of 4 - Season of the Witch",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/776",
+              "name": "UNCANNY X-MEN (1963) #475",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/781",
+              "name": "UNCANNY X-MEN (1963) #478",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/783",
+              "name": "UNCANNY X-MEN (1963) #479",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/787",
+              "name": "UNCANNY X-MEN (1963) #481",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/789",
+              "name": "UNCANNY X-MEN (1963) #482",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/1745",
+              "name": "UNCANNY X-MEN (1963) #433",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/1776",
+              "name": "UNCANNY X-MEN (1963) #434",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/2047",
+              "name": "UNCANNY X-MEN (1963) #440",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/2293",
+              "name": "UNCANNY X-MEN (1963) #432",
+              "type": "cover"
+            }
+          ],
+          "returned": 20
+        },
+        "events": {
+          "available": 10,
+          "collectionURI": "http://gateway.marvel.com/v1/public/characters/1009499/events",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/events/227",
+              "name": "Age of Apocalypse"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/events/233",
+              "name": "Atlantis Attacks"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/events/249",
+              "name": "Fatal Attractions"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/events/251",
+              "name": "House of M"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/events/29",
+              "name": "Infinity War"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/events/32",
+              "name": "Kings of Pain"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/events/154",
+              "name": "Onslaught"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/events/336",
+              "name": "Secret Empire"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/events/323",
+              "name": "Secret Wars (2015)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/events/276",
+              "name": "War of Kings"
+            }
+          ],
+          "returned": 10
+        },
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/characters/1771/polaris?utm_campaign=apiRef&utm_source=26de2309d653b14eeaeb889a0e71f16f"
+          },
+          {
+            "type": "wiki",
+            "url": "http://marvel.com/universe/Polaris?utm_campaign=apiRef&utm_source=26de2309d653b14eeaeb889a0e71f16f"
+          },
+          {
+            "type": "comiclink",
+            "url": "http://marvel.com/comics/characters/1009499/polaris?utm_campaign=apiRef&utm_source=26de2309d653b14eeaeb889a0e71f16f"
+          }
+        ]
+      }
+    ]
+  }
+}

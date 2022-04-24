@@ -15,8 +15,8 @@ public protocol MWDetailViewModelProtocol: AnyObject {
     func getTitle() -> String?
     func getDescription() -> String?
     // MARK: - Functions
-    func getMarvelCharacterDetail()
-    func getRelatedComicCharacter()
-    func getRelatedSerieCharacter()
+    func getMarvelCharacterDetail(completionTest: ((Result<CharacterModel, MWNetworkError>)-> Void)?)
+    func getRelatedComicCharacter(completionTest: ((Result<[RelatedElementModel], MWNetworkError>)-> Void)?)
+    func getRelatedSerieCharacter(completionTest: ((Result<[RelatedElementModel], MWNetworkError>)-> Void)?)
     func getCollectionElement(_ list: [RelatedElementModel]) -> [CommonElement]
 }

@@ -15,7 +15,7 @@ class MWHomeListTableViewCell: UITableViewCell {
     @IBOutlet weak var viewContent: UIView! {
         didSet {
             viewContent.layer.cornerRadius = 14
-            viewContent.layer.shadowColor = UIColor.black.cgColor
+            viewContent.layer.shadowColor = MWColor.black.cgColor
             viewContent.layer.shadowOpacity = 0.3
             viewContent.layer.shadowOffset = .zero
             viewContent.layer.shadowRadius = 10

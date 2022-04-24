@@ -1,0 +1,935 @@
+{
+  "code": 200,
+  "status": "Ok",
+  "copyright": "© 2022 MARVEL",
+  "attributionText": "Data provided by Marvel. © 2022 MARVEL",
+  "attributionHTML": "<a href=\"http://marvel.com\">Data provided by Marvel. © 2022 MARVEL</a>",
+  "etag": "4bb10eb4dd4cb194aa389e66921ebd563a88ffaa",
+  "data": {
+    "offset": 0,
+    "limit": 5,
+    "total": 4,
+    "count": 4,
+    "results": [
+      {
+        "id": 1009499,
+        "name": "Polaris",
+        "description": "",
+        "modified": "2013-11-01T16:43:39-0400",
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/c/c0/5274122562b05",
+          "extension": "jpg"
+        },
+        "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009499",
+        "comics": {
+          "available": 265,
+          "collectionURI": "http://gateway.marvel.com/v1/public/characters/1009499/comics",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/7455",
+              "name": "Cable (1993) #76"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/7457",
+              "name": "Cable (1993) #78"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/20603",
+              "name": "Classic X-Men (1986) #5"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/20566",
+              "name": "Classic X-Men (1986) #12"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/20567",
+              "name": "Classic X-Men (1986) #13"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/20589",
+              "name": "Classic X-Men (1986) #33"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/4072",
+              "name": "Decimation: X-Men the Day After (Trade Paperback)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/20374",
+              "name": "Defenders (1972) #63"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/20233",
+              "name": "Doctor Strange, Sorcerer Supreme (1988) #69"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/8555",
+              "name": "Earth X (1999) #5"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/8556",
+              "name": "Earth X (1999) #6"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/4241",
+              "name": "EARTH X TPB [NEW PRINTING] (Trade Paperback)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/24259",
+              "name": "Fantastic Force (2009) #2"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/25161",
+              "name": "Fantastic Force (2009) #3"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/3463",
+              "name": "House of M: Uncanny X-Men (Trade Paperback)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/9202",
+              "name": "Incredible Hulk (1962) #391"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/9203",
+              "name": "Incredible Hulk (1962) #392"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/17457",
+              "name": "Infinity War (Trade Paperback)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/52069",
+              "name": "Magneto (2014) #20"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/52070",
+              "name": "Magneto (2014) #21"
+            }
+          ],
+          "returned": 20
+        },
+        "series": {
+          "available": 68,
+          "collectionURI": "http://gateway.marvel.com/v1/public/characters/1009499/series",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/1995",
+              "name": "Cable (1993 - 2002)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/3751",
+              "name": "Classic X-Men (1986 - 1990)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/1643",
+              "name": "Decimation: X-Men the Day After (2006)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/3743",
+              "name": "Defenders (1972 - 1986)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/3741",
+              "name": "Doctor Strange, Sorcerer Supreme (1988 - 1996)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/378",
+              "name": "Earth X (1999 - 2000)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/1806",
+              "name": "EARTH X TPB [NEW PRINTING] (2006)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/7238",
+              "name": "Fantastic Force (2009)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/1412",
+              "name": "House of M: Uncanny X-Men (2006)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/2021",
+              "name": "Incredible Hulk (1962 - 1999)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/3289",
+              "name": "Infinity War (2005)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/18407",
+              "name": "Magneto (2014 - 2015)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/1440",
+              "name": "MARVEL MASTERWORKS: THE UNCANNY X-MEN VOL. 2 HC (2005)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/3460",
+              "name": "MARVEL MASTERWORKS: THE UNCANNY X-MEN VOL. 6 HC (2008)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/1595",
+              "name": "Marvel Visionaries: Chris Claremont (2005)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/8131",
+              "name": "Moon Knight Vol. 5: Down South (2009 - Present)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/8132",
+              "name": "Moon Knight Vol. 5: Down South (2009 - Present)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/8133",
+              "name": "Ms. Marvel Vol. 6: Ascension (2009 - Present)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/8135",
+              "name": "Ms. Marvel Vol. 7: Dark Reign (2009 - Present)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/8134",
+              "name": "Ms. Marvel Vol. 7: Dark Reign (2009 - Present)"
+            }
+          ],
+          "returned": 20
+        },
+        "stories": {
+          "available": 309,
+          "collectionURI": "http://gateway.marvel.com/v1/public/characters/1009499/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/594",
+              "name": "X-MEN (2004) #164",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/624",
+              "name": "X-MEN (2004) #162",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/630",
+              "name": "X-MEN (2004) #166",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/634",
+              "name": "X-MEN (2004) #168",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/636",
+              "name": "X-MEN (2004) #169",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/638",
+              "name": "X-MEN (2004) #170",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/648",
+              "name": "1 of 2- Black Panther crossover",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/660",
+              "name": "X-MEN (2004) #181",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/668",
+              "name": "X-MEN (2004) #185",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/672",
+              "name": "X-MEN (2004) #187",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/749",
+              "name": "1 of 4 - Season of the Witch",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/776",
+              "name": "UNCANNY X-MEN (1963) #475",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/781",
+              "name": "UNCANNY X-MEN (1963) #478",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/783",
+              "name": "UNCANNY X-MEN (1963) #479",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/787",
+              "name": "UNCANNY X-MEN (1963) #481",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/789",
+              "name": "UNCANNY X-MEN (1963) #482",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/1745",
+              "name": "UNCANNY X-MEN (1963) #433",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/1776",
+              "name": "UNCANNY X-MEN (1963) #434",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/2047",
+              "name": "UNCANNY X-MEN (1963) #440",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/2293",
+              "name": "UNCANNY X-MEN (1963) #432",
+              "type": "cover"
+            }
+          ],
+          "returned": 20
+        },
+        "events": {
+          "available": 10,
+          "collectionURI": "http://gateway.marvel.com/v1/public/characters/1009499/events",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/events/227",
+              "name": "Age of Apocalypse"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/events/233",
+              "name": "Atlantis Attacks"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/events/249",
+              "name": "Fatal Attractions"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/events/251",
+              "name": "House of M"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/events/29",
+              "name": "Infinity War"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/events/32",
+              "name": "Kings of Pain"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/events/154",
+              "name": "Onslaught"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/events/336",
+              "name": "Secret Empire"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/events/323",
+              "name": "Secret Wars (2015)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/events/276",
+              "name": "War of Kings"
+            }
+          ],
+          "returned": 10
+        },
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/characters/1771/polaris?utm_campaign=apiRef&utm_source=26de2309d653b14eeaeb889a0e71f16f"
+          },
+          {
+            "type": "wiki",
+            "url": "http://marvel.com/universe/Polaris?utm_campaign=apiRef&utm_source=26de2309d653b14eeaeb889a0e71f16f"
+          },
+          {
+            "type": "comiclink",
+            "url": "http://marvel.com/comics/characters/1009499/polaris?utm_campaign=apiRef&utm_source=26de2309d653b14eeaeb889a0e71f16f"
+          }
+        ]
+      },
+      {
+        "id": 1009501,
+        "name": "Post",
+        "description": "",
+        "modified": "1969-12-31T19:00:00-0500",
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
+          "extension": "jpg"
+        },
+        "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009501",
+        "comics": {
+          "available": 13,
+          "collectionURI": "http://gateway.marvel.com/v1/public/characters/1009501/comics",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/7408",
+              "name": "Cable (1993) #33"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/7451",
+              "name": "Cable (1993) #72"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/20767",
+              "name": "Onslaught: X-Men  (1996) #1"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/13904",
+              "name": "Uncanny X-Men (1963) #363"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/13905",
+              "name": "Uncanny X-Men (1963) #364"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/13920",
+              "name": "Uncanny X-Men (1963) #379"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/12203",
+              "name": "X-Factor (1986) #125"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/14340",
+              "name": "X-Men (1991) #50"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/14346",
+              "name": "X-Men (1991) #56"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/14376",
+              "name": "X-Men (1991) #83"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/21295",
+              "name": "X-Men: The Complete Onslaught Epic Book 2 (Trade Paperback)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/23015",
+              "name": "X-Men: The Complete Onslaught Epic Book 4 (Trade Paperback)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/17454",
+              "name": "X-Men: The Complete Onslaught Epic Vol. 1 TPB (Trade Paperback)"
+            }
+          ],
+          "returned": 13
+        },
+        "series": {
+          "available": 8,
+          "collectionURI": "http://gateway.marvel.com/v1/public/characters/1009501/series",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/1995",
+              "name": "Cable (1993 - 2002)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/3900",
+              "name": "Onslaught: X-Men  (1996)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/2258",
+              "name": "Uncanny X-Men (1963 - 2011)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/2098",
+              "name": "X-Factor (1986 - 1998)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/2265",
+              "name": "X-Men (1991 - 2001)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/4919",
+              "name": "X-Men: The Complete Onslaught Epic Book 2 (2008)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/6430",
+              "name": "X-Men: The Complete Onslaught Epic Book 4 (2008 - Present)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/3284",
+              "name": "X-Men: The Complete Onslaught Epic Vol. 1 TPB (2007)"
+            }
+          ],
+          "returned": 8
+        },
+        "stories": {
+          "available": 11,
+          "collectionURI": "http://gateway.marvel.com/v1/public/characters/1009501/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/22145",
+              "name": "The Ticking Clock",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/24238",
+              "name": "CABLE (1993) #33",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/24329",
+              "name": "From the Pit Comes an Evil",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/28266",
+              "name": "Uncanny X-Men (1963) #363",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/28268",
+              "name": "When You're Unwanted (The Hunt For Xavier Part Three)",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/28271",
+              "name": "Escape From Alcatraz (The Hunt For Xavier Part Five)",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/28305",
+              "name": "What Dreams May Come...",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/29234",
+              "name": "Meet the Herald of Onslaught",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/29247",
+              "name": "The Beginning of the End: Twilight of the Gods",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/29311",
+              "name": "The Hunt for Xavier Part Four: Tomb of Ice",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/44584",
+              "name": "Traitor to the Cause",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 11
+        },
+        "events": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/characters/1009501/events",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/events/154",
+              "name": "Onslaught"
+            }
+          ],
+          "returned": 1
+        },
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/characters/1778/post?utm_campaign=apiRef&utm_source=26de2309d653b14eeaeb889a0e71f16f"
+          },
+          {
+            "type": "comiclink",
+            "url": "http://marvel.com/comics/characters/1009501/post?utm_campaign=apiRef&utm_source=26de2309d653b14eeaeb889a0e71f16f"
+          }
+        ]
+      },
+      {
+        "id": 1016840,
+        "name": "Power Man (USM)",
+        "description": "A former street kid whoâ€™s not quite used to the Super Hero world, Luke is a no-nonsense tough guy who serves as the emotional heart and big brother of the group. He is fiercely loyal and nearly fearless in battle. \r\n\r\nLukeâ€™s unbreakable skin and super strength make him the bruiser out of all the trainees. Heâ€™s the first guy to jump into a fight. However, he can still be hurt by concussive blasts and other forms of energy.\r\n\r\nAs Dannyâ€™s best friend, Luke is the translator for Dannyâ€™s sometimes spacey, non-sequitur comments. Luke will always be the first to defend Peter from others, both as civilians and Super Heroes.",
+        "modified": "2013-09-18T15:54:58-0400",
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/3/00/52321806b45cf",
+          "extension": "jpg"
+        },
+        "resourceURI": "http://gateway.marvel.com/v1/public/characters/1016840",
+        "comics": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/characters/1016840/comics",
+          "items": [],
+          "returned": 0
+        },
+        "series": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/characters/1016840/series",
+          "items": [],
+          "returned": 0
+        },
+        "stories": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/characters/1016840/stories",
+          "items": [],
+          "returned": 0
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/characters/1016840/events",
+          "items": [],
+          "returned": 0
+        },
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/characters/1783/power_man?utm_campaign=apiRef&utm_source=26de2309d653b14eeaeb889a0e71f16f"
+          },
+          {
+            "type": "comiclink",
+            "url": "http://marvel.com/comics/characters/1016840/power_man_usm?utm_campaign=apiRef&utm_source=26de2309d653b14eeaeb889a0e71f16f"
+          }
+        ]
+      },
+      {
+        "id": 1010770,
+        "name": "Power Pack",
+        "description": "",
+        "modified": "2013-11-20T17:14:55-0500",
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/3/40/528d338b532d2",
+          "extension": "jpg"
+        },
+        "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010770",
+        "comics": {
+          "available": 137,
+          "collectionURI": "http://gateway.marvel.com/v1/public/characters/1010770/comics",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/29317",
+              "name": "ACTS OF VENGEANCE CROSSOVERS OMNIBUS (Hardcover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/29318",
+              "name": "ACTS OF VENGEANCE CROSSOVERS OMNIBUS (DM Only) (Hardcover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/4106",
+              "name": "Avengers and Power Pack Assemble! (2006) #1"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/4214",
+              "name": "Avengers and Power Pack Assemble! (2006) #2"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/4308",
+              "name": "Avengers and Power Pack Assemble! (2006) #3"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/4464",
+              "name": "Avengers and Power Pack Assemble! (2006) #4"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/63215",
+              "name": "Avengers and Power Pack (2017) #1"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/63216",
+              "name": "Avengers and Power Pack (2017) #2"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/63217",
+              "name": "Avengers and Power Pack (2017) #3"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/63218",
+              "name": "Avengers and Power Pack (2017) #4"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/63219",
+              "name": "Avengers and Power Pack (2017) #5"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/63220",
+              "name": "Avengers and Power Pack (2017) #6"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/63221",
+              "name": "Avengers and Power Pack (2017) #7"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/63222",
+              "name": "Avengers and Power Pack (2017) #8"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/59609",
+              "name": "Civil War II: Choosing Sides (2016) #4"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/58991",
+              "name": "Deadpool: Back in Black (2016) #2"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/39434",
+              "name": "Essential X-Men Vol. 5 (All-New Edition) (Trade Paperback)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/39433",
+              "name": "Essential X-Men Vol. 6 (All-New Edition) (Trade Paperback)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/15974",
+              "name": "Fantastic Four and Power Pack (2007) #1"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/16159",
+              "name": "Fantastic Four and Power Pack (2007) #2"
+            }
+          ],
+          "returned": 20
+        },
+        "series": {
+          "available": 38,
+          "collectionURI": "http://gateway.marvel.com/v1/public/characters/1010770/series",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/9994",
+              "name": "ACTS OF VENGEANCE CROSSOVERS OMNIBUS (2011)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/9995",
+              "name": "ACTS OF VENGEANCE CROSSOVERS OMNIBUS (DM Only) (2011)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/23123",
+              "name": "Avengers and Power Pack (2017)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/1046",
+              "name": "Avengers and Power Pack Assemble! (2006)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/21692",
+              "name": "Civil War II: Choosing Sides (2016)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/21489",
+              "name": "Deadpool: Back in Black (2016)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/14389",
+              "name": "Essential X-Men Vol. 5 (All-New Edition) (2011 - Present)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/14388",
+              "name": "Essential X-Men Vol. 6 (All-New Edition) (2011 - Present)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/26061",
+              "name": "Fantastic Four and Power Pack (2018)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/2506",
+              "name": "Fantastic Four and Power Pack (2007)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/3444",
+              "name": "Fantastic Four and Power Pack: Favorite Son (2008)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/1869",
+              "name": "Hulk and Power Pack (2007)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/2708",
+              "name": "HULK AND POWER PACK: PACK SMASH! DIGEST (2007)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/23098",
+              "name": "Iron Man and Power Pack (2017)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/3077",
+              "name": "Iron Man and Power Pack (2007 - 2008)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/3719",
+              "name": "Marvel Fanfare (1982 - 1992)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/24138",
+              "name": "Marvel Legacy Companion (2018)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/2301",
+              "name": "Marvel Super Heroes (1990 - 1993)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/26877",
+              "name": "Marvel's Greatest Creators: Power Pack (2019)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/15186",
+              "name": "Power Pack (1984 - 1991)"
+            }
+          ],
+          "returned": 20
+        },
+        "stories": {
+          "available": 164,
+          "collectionURI": "http://gateway.marvel.com/v1/public/characters/1010770/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/4528",
+              "name": "1 of 4 - 4XLS",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/4529",
+              "name": "1 of 4 - 4XLS",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/4530",
+              "name": "2 of 4 - 4XLS",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/4531",
+              "name": "2 of 4 - 4XLS",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/4532",
+              "name": "3 of 4 - 4XLS",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/4533",
+              "name": "3 of 4 - 4XLS",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/5463",
+              "name": "X-Men and Power Pack (2005) #1",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/5464",
+              "name": "1 of 4 - 4XLS",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/5465",
+              "name": "X-Men and Power Pack (2005) #2",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/5466",
+              "name": "2 of 4 - 4XLS",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/5467",
+              "name": "X-Men and Power Pack (2005) #3",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/5468",
+              "name": "3 of 4 - 4XLS",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/5469",
+              "name": "X-Men and Power Pack (2005) #4",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/5470",
+              "name": "4 of 4 - 4XLS",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/5798",
+              "name": "Avengers and Power Pack Assemble! (2006) #1",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/5799",
+              "name": "1 of 4 - 4XLS",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/5800",
+              "name": "Avengers and Power Pack Assemble! (2006) #2",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/5801",
+              "name": "2 of 4 - 4XLS",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/5802",
+              "name": "Avengers and Power Pack Assemble! (2006) #3",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/5803",
+              "name": "3 of 4 - 4XLS",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 20
+        },
+        "events": {
+          "available": 4,
+          "collectionURI": "http://gateway.marvel.com/v1/public/characters/1010770/events",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/events/233",
+              "name": "Atlantis Attacks"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/events/252",
+              "name": "Inferno"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/events/263",
+              "name": "Mutant Massacre"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/events/271",
+              "name": "Secret Wars II"
+            }
+          ],
+          "returned": 4
+        },
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/characters/1010770/power_pack?utm_campaign=apiRef&utm_source=26de2309d653b14eeaeb889a0e71f16f"
+          },
+          {
+            "type": "wiki",
+            "url": "http://marvel.com/universe/Power_Pack?utm_campaign=apiRef&utm_source=26de2309d653b14eeaeb889a0e71f16f"
+          },
+          {
+            "type": "comiclink",
+            "url": "http://marvel.com/comics/characters/1010770/power_pack?utm_campaign=apiRef&utm_source=26de2309d653b14eeaeb889a0e71f16f"
+          }
+        ]
+      }
+    ]
+  }
+}

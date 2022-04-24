@@ -26,7 +26,7 @@ enum MWColor {
     static let white: UIColor = {
         if #available(iOS 13.0, *) {
             let color = UIColor { (trait) -> UIColor in
-                return trait.userInterfaceStyle == .dark ? MWColor.white : MWColor.white
+                return trait.userInterfaceStyle == .dark ? MWColor.black : MWColor.white
             }
             return color
         } else {
@@ -37,7 +37,7 @@ enum MWColor {
     static let black: UIColor = {
         if #available(iOS 13.0, *) {
             let color = UIColor { (trait) -> UIColor in
-                return trait.userInterfaceStyle == .dark ? MWColor.black : MWColor.black
+                return trait.userInterfaceStyle == .dark ? MWColor.white : MWColor.black
             }
             return color
         } else {

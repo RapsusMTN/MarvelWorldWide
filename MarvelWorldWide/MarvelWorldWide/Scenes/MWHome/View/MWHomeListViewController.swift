@@ -43,7 +43,7 @@ class MWHomeListViewController: BaseViewController, MWHomeListViewControllerProt
         didSet {
             scrollTopButton.alpha = 0
             scrollTopButton.layer.cornerRadius = scrollTopButton.frame.height / 2
-            scrollTopButton.layer.shadowColor = UIColor.black.cgColor
+            scrollTopButton.layer.shadowColor = MWColor.black.cgColor
             scrollTopButton.layer.shadowOpacity = 0.3
             scrollTopButton.layer.shadowOffset = .zero
             scrollTopButton.layer.shadowRadius = 10

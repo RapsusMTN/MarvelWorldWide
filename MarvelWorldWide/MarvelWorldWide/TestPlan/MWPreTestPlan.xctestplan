@@ -1,0 +1,24 @@
+{
+  "configurations" : [
+    {
+      "id" : "7ECD9B59-5C04-4326-AA48-AD02BEF6CA96",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:MarvelWorldWide.xcodeproj",
+        "identifier" : "5AE24002281414C600078C28",
+        "name" : "MarvelWorldWideTests"
+      }
+    }
+  ],
+  "version" : 1
+}

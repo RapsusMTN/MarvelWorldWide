@@ -40,7 +40,7 @@ public class MWDetailViewModel: MWDetailViewModelProtocol {
     }
     
     // MARK: - Services
-    public func getMarvelCharacterDetail() {
+    public func getMarvelCharacterDetail(completionTest: ((Result<CharacterModel, MWNetworkError>)-> Void)? = nil) {
         
         self.view.isLoading = true
         
@@ -51,28 +51,32 @@ public class MWDetailViewModel: MWDetailViewModelProtocol {
                 self?.title = characterModel.name
                 self?.description = characterModel.welcomeDescription
                 self?.getRelatedComicCharacter()
+                completionTest?(.success(characterModel))
             case .failure(let mwNetworkError):
                 self?.view.showError(mwNetworkError.description)
                 self?.view.isLoading = false
+                completionTest?(.failure(mwNetworkError))
             }
         }
     }
     
-    public func getRelatedComicCharacter() {
+    public func getRelatedComicCharacter(completionTest: ((Result<[RelatedElementModel], MWNetworkError>)-> Void)? = nil) {
                         
         self.repository.getRelatedComicCharacter(characterId: characterId) { [weak self] result in
             switch result {
             case .success(let comics):
                 self?._comics = comics
                 self?.getRelatedSerieCharacter()
+                completionTest?(.success(comics))
             case .failure(let mwNetworkError):
                 self?.view.showError(mwNetworkError.description)
                 self?.view.isLoading = false
+                completionTest?(.failure(mwNetworkError))
             }
         }
     }
     
-    public func getRelatedSerieCharacter() {
+    public func getRelatedSerieCharacter(completionTest: ((Result<[RelatedElementModel], MWNetworkError>)-> Void)? = nil) {
                         
         self.repository.getRelatedSerieCharacter(characterId: characterId) { [weak self] result in
             guard let strongSelf = self else { return }
@@ -84,8 +88,10 @@ public class MWDetailViewModel: MWDetailViewModelProtocol {
                 let elementSeries = strongSelf.getCollectionElement(series)
                 let controllerModel = MWDetailViewControllerModel(imageURL: strongSelf.imageURL, title: strongSelf.title, description: strongSelf.description, comics: elementComics, series: elementSeries)
                 self?.view.model = controllerModel
+                completionTest?(.success(series))
             case .failure(let mwNetworkError):
                 self?.view.showError(mwNetworkError.description)
+                completionTest?(.failure(mwNetworkError))
             }
             self?.view.isLoading = false
         }

@@ -79,7 +79,7 @@ class MWDetailViewController: BaseViewController, MWDetailViewControllerProtocol
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        self.viewModel.getMarvelCharacterDetail()
+        self.viewModel.getMarvelCharacterDetail(completionTest: nil)
     }
 
     // MARK: - Functions

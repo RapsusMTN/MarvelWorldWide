@@ -56,7 +56,7 @@ open class BaseViewController: UIViewController, BaseViewControllerProtocol {
         case .add:
             view.addSubview(spinnerAnimationView)
             
-            spinnerAnimationView.topAnchor.constraint(equalTo: view.superview!.topAnchor).isActive = true
+            spinnerAnimationView.topAnchor.constraint(equalTo: view.topAnchor).isActive = true
             spinnerAnimationView.leadingAnchor.constraint(equalTo: view.leadingAnchor).isActive = true
             spinnerAnimationView.trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true
             spinnerAnimationView.bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
