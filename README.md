@@ -4,7 +4,7 @@
 </p>
 <br>
 
-# MarvelWorldwideApp
+# MarvelWorldWide
 Marvel App
 
 [![Swift](https://img.shields.io/badge/Swift-5.5-orange?style=flat-square)](https://img.shields.io/badge/Swift-5.3_5.4_5.5-Orange?style=flat-square) 
@@ -21,27 +21,29 @@ This project based on the Marvel [API](https://developer.marvel.com/docs), some 
 - Empty pagination control and non-existing results
 - Multilanguage app
 - DarkMode support
+- Local data caching when entering a character detail
 
 This app is a simple demo to show the functionality of the API with iOS.
 
 ## Important
 
 To use Marvel API you should create an account and generate an API key and configure the .xcconfig files depending on the development environment in which we want to launch our application.
-Example:[Realease.xcconfig](https://github.com/RapsusMTN/MarvelWorldwideApp/tree/main/MarvelWorldWideApp/MarvelWorldWideApp/Configuration/Environment), changing your created API key.
+Example:[Realease.xcconfig](https://github.com/RapsusMTN/MarvelWorldwideApp/tree/main/Marvel
+ideApp/MarvelWorldWide/Configuration/Environment), changing your created API key.
 
 ## Environment
 
 We can launch our app in 3 different development environments **Release**, **Development** and **Debug**, selecting the following targets:
 
-- MarvelWorldWideApp (Release)
-- MarvelWorldWideAppDev (Development)
-- MarvelWorldWideAppDebug (Debug)
+- MarvelWorldWide (Release)
+- MarvelWorldWideDevelop (Development)
+- MarvelWorldWideDebug (Debug)
 
 Deployment info: **iOS 15.2**
 
 ## Testing
 
-To run the unit tests of the app, we must select the **MarvelWorldWideAppTests** target and press **Command+U**, then the corresponding unit tests will be launched.
+To run the unit tests of the app, we must select the **MarvelWorldWideTests** target and press **Command+U**, then the corresponding unit tests will be launched.
 
 ## Third Party Libraries
 
@@ -53,6 +55,9 @@ I have used the following libraries to develop the project:
 
 I have used [Swift Package Manager](https://developer.apple.com/documentation/swift_packages) for library management
 
+## Database Local
+
+Simulation of saving in a local database with UserDefaults since I have tried to use **ObjectBox** and I have not been able to integrate it with SwiftPackageManager, but it is correctly implemented to be able to refactor the persistence layer with any local database tool.
 
 ## Architecture - Functionality - Workflow
 
