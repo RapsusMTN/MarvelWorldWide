@@ -11,7 +11,7 @@ import Foundation
 /**
  Singleton pattern to manage persistance operations between app
  */
-final class DatabaseManager: NSObject {
+final class DatabaseManager: DatabaseManagerProtocol {
     
     // MARK: - Properties
     private struct Static {

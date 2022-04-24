@@ -9,5 +9,5 @@ import Foundation
 
 public protocol MWHomeDataSourceAPIProtocol: AnyObject {
     // MARK: - Functions
-    func getMarvelCharacterList(name: String?, offset: Int, completionBlock: @escaping (Result<[CharacterModel], MWNetworkError>) -> Void)
+    func getMarvelCharacterList(name: String?, offset: Int, completionBlock: @escaping (Result<ResponseModel<CharacterModel>, MWNetworkError>) -> Void)
 }

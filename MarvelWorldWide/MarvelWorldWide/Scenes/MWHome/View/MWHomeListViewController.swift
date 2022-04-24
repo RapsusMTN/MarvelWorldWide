@@ -29,6 +29,7 @@ class MWHomeListViewController: BaseViewController, MWHomeListViewControllerProt
     @IBOutlet weak var tableView: UITableView! {
         didSet {
             tableView.delegate = self
+            tableView.prefetchDataSource = self
             tableView.dataSource = self
             tableView.refreshControl = refreshControl
             
@@ -64,13 +65,22 @@ class MWHomeListViewController: BaseViewController, MWHomeListViewControllerProt
     // MARK: - Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
+        tableView.isHidden = true
         title = "Home_home_list_navbar_title_label".localized()
         self.viewModel.getMarvelCharacterList(isRefreshData: false, completionTest: nil)
     }
     
     // MARK: - Functions
-    func reloadData() {
-        self.tableView.reloadData()
+    func reloadData(with newIndexPathsToReload: [IndexPath]?) {
+        guard let newIndexPathsToReload = newIndexPathsToReload else {
+          isLoading = false
+          tableView.isHidden = false
+          tableView.reloadData()
+          return
+        }
+        // 2
+        let indexPathsToReload = visibleIndexPathsToReload(intersecting: newIndexPathsToReload)
+        tableView.reloadRows(at: indexPathsToReload, with: .automatic)
     }
     
     // MARK: - Animation

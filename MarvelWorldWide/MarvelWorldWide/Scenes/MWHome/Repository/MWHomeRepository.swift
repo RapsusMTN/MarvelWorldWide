@@ -18,7 +18,7 @@ class MWHomeRepository: MWHomeRepositoryProtocol {
     }
     
     // MARK: - Functions
-    func getMarvelCharacterList(name: String?, offset: Int, completionBlock: @escaping (Result<[CharacterModel], MWNetworkError>) -> Void) {
+    func getMarvelCharacterList(name: String?, offset: Int, completionBlock: @escaping (Result<ResponseModel<CharacterModel>, MWNetworkError>) -> Void) {
         
         dataSourceAPI.getMarvelCharacterList(name: name, offset: offset) { result in
             switch result {
@@ -29,13 +29,4 @@ class MWHomeRepository: MWHomeRepositoryProtocol {
             }
         }
     }
-    
-    
-    // MARK: - DataBase Functions
-//    private func getCharacterListFromCache() -> [CharacterModel] {
-//        
-//        
-//        
-//    }
-    
 }

@@ -11,7 +11,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="265" id="KGk-i7-Jjw" customClass="MWHomeListTableViewCell" customModule="MarvelWorldWideApp" customModuleProvider="target">
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="265" id="KGk-i7-Jjw" customClass="MWHomeListTableViewCell" customModule="MarvelWorldWide" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="397" height="201"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
@@ -21,13 +21,16 @@
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oT1-9d-ebX">
                         <rect key="frame" x="16" y="16" width="365" height="169"/>
                         <subviews>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="CUP-Vl-gUS">
+                                <rect key="frame" x="172.5" y="74.5" width="20" height="20"/>
+                            </activityIndicatorView>
                             <stackView opaque="NO" contentMode="scaleToFill" alignment="top" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="LR1-Mx-VrQ">
                                 <rect key="frame" x="0.0" y="0.0" width="365" height="169"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="vm9-Bl-oc5">
                                         <rect key="frame" x="16" y="16" width="80" height="80"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splashMarvel" translatesAutoresizingMaskIntoConstraints="NO" id="4bI-V7-lvx" customClass="CommonImageView" customModule="MarvelWorldWideApp" customModuleProvider="target">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splashMarvel" translatesAutoresizingMaskIntoConstraints="NO" id="4bI-V7-lvx" customClass="CommonImageView" customModule="MarvelWorldWide" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="4bI-V7-lvx" secondAttribute="height" multiplier="1:1" id="5NL-Af-bNo"/>
@@ -40,13 +43,13 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="nl1-vL-Dnh">
                                         <rect key="frame" x="112" y="16" width="237" height="45.5"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O8d-d0-xJ2" customClass="CommonLabel" customModule="MarvelWorldWideApp" customModuleProvider="target">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O8d-d0-xJ2" customClass="CommonLabel" customModule="MarvelWorldWide" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="237" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HOLA" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VTA-Zj-cqL" customClass="CommonLabel" customModule="MarvelWorldWideApp" customModuleProvider="target">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HOLA" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VTA-Zj-cqL" customClass="CommonLabel" customModule="MarvelWorldWide" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="28.5" width="237" height="17"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <nil key="textColor"/>
@@ -60,10 +63,12 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="CUP-Vl-gUS" firstAttribute="centerX" secondItem="oT1-9d-ebX" secondAttribute="centerX" id="3Om-js-NLH"/>
                             <constraint firstItem="LR1-Mx-VrQ" firstAttribute="leading" secondItem="oT1-9d-ebX" secondAttribute="leading" id="ETP-Q9-f6G"/>
                             <constraint firstItem="LR1-Mx-VrQ" firstAttribute="top" secondItem="oT1-9d-ebX" secondAttribute="top" id="HZa-LI-5f5"/>
                             <constraint firstAttribute="trailing" secondItem="LR1-Mx-VrQ" secondAttribute="trailing" id="Jcm-Y9-45J"/>
                             <constraint firstAttribute="bottom" secondItem="LR1-Mx-VrQ" secondAttribute="bottom" id="UuF-t8-Dgk"/>
+                            <constraint firstItem="CUP-Vl-gUS" firstAttribute="centerY" secondItem="oT1-9d-ebX" secondAttribute="centerY" id="ecs-IU-Kfn"/>
                         </constraints>
                     </view>
                 </subviews>
@@ -78,6 +83,7 @@
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <connections>
+                <outlet property="activityIndicatorView" destination="CUP-Vl-gUS" id="Vd1-OP-frr"/>
                 <outlet property="characterImageView" destination="4bI-V7-lvx" id="pn0-53-r2Q"/>
                 <outlet property="characterNameLabel" destination="O8d-d0-xJ2" id="Yhh-MX-DVc"/>
                 <outlet property="descriptionLabel" destination="VTA-Zj-cqL" id="dYX-Xn-jiX"/>

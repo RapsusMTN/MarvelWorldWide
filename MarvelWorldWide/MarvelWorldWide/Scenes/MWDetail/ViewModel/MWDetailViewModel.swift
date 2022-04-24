@@ -53,9 +53,8 @@ public class MWDetailViewModel: MWDetailViewModelProtocol {
                 self?.getRelatedComicCharacter()
             case .failure(let mwNetworkError):
                 self?.view.showError(mwNetworkError.description)
+                self?.view.isLoading = false
             }
-            self?.view.isLoading = false
-
         }
     }
     
@@ -68,8 +67,8 @@ public class MWDetailViewModel: MWDetailViewModelProtocol {
                 self?.getRelatedSerieCharacter()
             case .failure(let mwNetworkError):
                 self?.view.showError(mwNetworkError.description)
+                self?.view.isLoading = false
             }
-            self?.view.isLoading = false
         }
     }
     

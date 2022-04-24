@@ -20,12 +20,12 @@ class MWHomeDataSourceAPI: MWHomeDataSourceAPIProtocol {
     }
     
     // MARK: - Services
-    func getMarvelCharacterList(name: String?, offset: Int, completionBlock: @escaping (Result<[CharacterModel], MWNetworkError>) -> Void) {
+    func getMarvelCharacterList(name: String?, offset: Int, completionBlock: @escaping (Result<ResponseModel<CharacterModel>, MWNetworkError>) -> Void) {
         
         MWNetworkFacade.executeRequest(endpoint: MWHomeEndpoint.getMarvelCharacterList(limit: defaultPageLimit, offset: offset, startsWithName: name), model: CharacterModel.self, session: session) { result in
             switch result {
             case .success(let response):
-                completionBlock(.success(response.data.results))
+                completionBlock(.success(response))
             case .failure(let mwNetworkError):
                 completionBlock(.failure(mwNetworkError))
             }

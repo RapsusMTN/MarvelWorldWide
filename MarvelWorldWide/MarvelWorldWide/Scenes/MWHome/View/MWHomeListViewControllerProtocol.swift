@@ -12,7 +12,7 @@ public protocol MWHomeListViewControllerProtocol: BaseViewController {
     var viewModel: MWHomeViewModelProtocol! { get set }
     var coordinator: MWHomeCoordinatorProtocol! { get set }
     // MARK: - Functions
-    func reloadData()
+    func reloadData(with newIndexPathsToReload: [IndexPath]?)
     func hideNoContentView()
     func endRefreshData()
     func showNoContentView()

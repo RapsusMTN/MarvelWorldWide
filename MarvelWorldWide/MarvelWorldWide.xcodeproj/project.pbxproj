@@ -91,6 +91,7 @@
 		5AE241AA281494E500078C28 /* MWDetailRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE241A9281494E500078C28 /* MWDetailRepository.swift */; };
 		5AE241AC281494F300078C28 /* MWDetailRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE241AB281494F300078C28 /* MWDetailRepositoryProtocol.swift */; };
 		5AE241AE28149C2D00078C28 /* RelatedElementType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE241AD28149C2D00078C28 /* RelatedElementType.swift */; };
+		5AE241B0281576A400078C28 /* DatabaseManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE241AF281576A400078C28 /* DatabaseManagerProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -202,6 +203,7 @@
 		5AE241A9281494E500078C28 /* MWDetailRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MWDetailRepository.swift; sourceTree = "<group>"; };
 		5AE241AB281494F300078C28 /* MWDetailRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MWDetailRepositoryProtocol.swift; sourceTree = "<group>"; };
 		5AE241AD28149C2D00078C28 /* RelatedElementType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelatedElementType.swift; sourceTree = "<group>"; };
+		5AE241AF281576A400078C28 /* DatabaseManagerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManagerProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -784,6 +786,7 @@
 			isa = PBXGroup;
 			children = (
 				5AE241062814772E00078C28 /* DatabaseManager.swift */,
+				5AE241AF281576A400078C28 /* DatabaseManagerProtocol.swift */,
 			);
 			path = Database;
 			sourceTree = "<group>";
@@ -985,6 +988,7 @@
 				5AE240B828144E9B00078C28 /* MWHomeViewModel.swift in Sources */,
 				5AE2404928142ED400078C28 /* MWSplashCoordinator.swift in Sources */,
 				5AE240DB2814727C00078C28 /* MWDetailCoordinator.swift in Sources */,
+				5AE241B0281576A400078C28 /* DatabaseManagerProtocol.swift in Sources */,
 				5AE240CF28146FBF00078C28 /* MWHomeListCellModel.swift in Sources */,
 				5AE2409328143DC900078C28 /* MWEndpointProtocol.swift in Sources */,
 				5AE240B028144D8D00078C28 /* MWHomeEndpoint.swift in Sources */,

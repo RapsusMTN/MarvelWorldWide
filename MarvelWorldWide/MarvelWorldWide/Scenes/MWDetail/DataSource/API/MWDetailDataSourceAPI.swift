@@ -1,8 +1,8 @@
 //
 //  MWDetailDataSourceAPI.swift
-//  MarvelWorldWide
+//  MarvelWorldWideApp
 //
-//  Created by akreyers on 23/4/22.
+//  Created by akreyers on 16/4/22.
 //
 
 import Foundation
