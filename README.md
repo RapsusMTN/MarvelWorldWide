@@ -69,6 +69,7 @@ Simulation of saving in a local database with UserDefaults since I have tried to
 7. Factory Pattern
 8. Communication between layers through closures and [Result](https://developer.apple.com/documentation/swift/result) and manage errors.
 9. Using [GitFlow](https://www.atlassian.com/es/git/tutorials/comparing-workflows/gitflow-workflow) metodology and **Pull request** to simulate a real working environment.
+10. Singleton Pattern
 
 ## Screenshots
 
